@@ -10,7 +10,8 @@ def avrami(t, k, n):
 
 files = ['135C_curve30.csv', '119C_curve30.csv', '112C_curve30.csv', '102C_curve30.csv', '88C_curve30.csv', '43C_curve30.csv',
          '135C_origin.csv',  '119C_origin.csv',  '112C_origin.csv',  '102C_origin.csv',  '88C_origin.csv',  '43C_origin.csv']
-dirfolder = '../data/'
+files = ['135C_mod.csv']
+dirfolder = '../../data/'
 
 f = open("fit_results.txt", 'w')
 f.close()
@@ -21,11 +22,12 @@ for filename in files:
     x_data = np.array(data.loc[:, 'X'])
     x_data = x_data * 10 / max(x_data)
     y_data = np.array(data.loc[:, 'Y']) / 100.
+    print(x_data)
     
     plt.plot(x_data, y_data, 'b-', label='data')
     
-    popt, pcov = curve_fit(avrami, x_data, y_data, bounds=(0, [0.1, 5]))
-#    popt, pcov = curve_fit(avrami, x_data, y_data)
+#    popt, pcov = curve_fit(avrami, x_data, y_data, bounds=(0, [0.1, 5]))
+    popt, pcov = curve_fit(avrami, x_data, y_data)
     y_pred = avrami(x_data, *popt)
 
     plt.plot(x_data, y_pred, 'r-', label='fit')
@@ -39,7 +41,5 @@ for filename in files:
     f.write("%s : " %filename)
     for var in popt:
         f.write(str(var) + '; ')
-    for cov in pcov:
-        f.write(str(cov) + '; ')
     f.write('\n')
     f.close()
