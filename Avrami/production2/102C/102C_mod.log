@@ -1,0 +1,595 @@
+
+102C_mod.csv
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             2000               20               20              100            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        6         0.166839              N/A     18.03s
+   1     9.91      1.72899e+42       11         0.135849              N/A     55.43s
+   2    10.24      4.94026e+39        8         0.109172              N/A      1.27m
+   3     9.64       1.5869e+40       17        0.0449501              N/A      1.25m
+   4     9.26       1.8603e+40       13        0.0435484              N/A      1.36m
+   5    11.56      1.96203e+40       24         0.042746              N/A      1.25m
+   6    14.17      1.48894e+40       21        0.0281452              N/A      1.28m
+   7    16.88      1.34074e+40       26        0.0195502              N/A      1.25m
+   8    16.37      4.73634e+39       36        0.0113431              N/A      1.11m
+   9    17.50      1.08756e+40       39        0.0107689              N/A      1.13m
+  10    17.35      1.90099e+40       27        0.0109698              N/A     57.49s
+  11    17.87      1.40333e+40       27        0.0109698              N/A     51.44s
+  12    18.10      2.30865e+40       21        0.0103189              N/A     42.14s
+  13    18.05      2.52917e+40       21        0.0103189              N/A     37.62s
+  14    18.55      2.58907e+40       19        0.0102917              N/A     34.73s
+  15    18.64      2.44801e+40       23        0.0102894              N/A     28.85s
+  16    18.35      2.70831e+40       19        0.0102917              N/A     22.16s
+  17    17.35       3.4994e+40       19        0.0102917              N/A     15.05s
+  18    17.84      3.15077e+40       19        0.0102917              N/A      6.66s
+  19    18.29      2.37059e+40       19        0.0102917              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(mul(-0.227, -0.225), sub(exp(-0.227), mul(add(-0.019, X0), add(mul(add(-0.054, X0), -0.225), X0)))), mul(0.284, X0)))
+exp(mul(mul(mul(-0.227, -0.225), sub(exp(-0.227), mul(X0, add(mul(X0, -0.225), X0)))), mul(0.284, X0)))
+exp(mul(mul(mul(-0.227, -0.225), sub(exp(-0.227), mul(X0, add(mul(X0, -0.225), X0)))), mul(0.284, X0)))
+exp(mul(mul(mul(-0.227, -0.225), sub(exp(-0.227), mul(X0, add(mul(X0, -0.225), X0)))), mul(0.284, X0)))
+exp(mul(mul(mul(-0.227, -0.225), sub(exp(-0.227), mul(X0, add(mul(X0, -0.225), X0)))), mul(0.284, X0)))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             2000               20               20              100            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        6         0.166839              N/A      5.61s
+   1     8.68      1.72889e+42       11         0.135849              N/A      1.16m
+   2     8.48       4.9379e+39        8         0.109172              N/A      1.29m
+   3     7.53      1.12819e+40        7        0.0612189              N/A      1.41m
+   4     6.19      4.28902e+39        9        0.0610336              N/A      1.15m
+   5     6.08      4.18342e+39       10        0.0130429              N/A      1.14m
+   6     7.50      4.71369e+39       10        0.0130429              N/A      1.05m
+   7     7.34      1.04929e+40       10        0.0130429              N/A     58.28s
+   8     7.91       1.0389e+40       10        0.0130429              N/A     56.37s
+   9     9.20      5.80101e+40       10        0.0130429              N/A     53.74s
+  10     9.78      4.28122e+39       10        0.0122825              N/A     46.31s
+  11     9.66       5.2538e+39       10        0.0122825              N/A     43.00s
+  12     9.79      6.58677e+39       10        0.0122825              N/A     40.34s
+  13     9.83      9.85358e+39       10        0.0122825              N/A     31.87s
+  14    10.04      1.56483e+40       10        0.0122825              N/A     30.44s
+  15     9.90      2.21882e+40       10        0.0122825              N/A     22.28s
+  16     9.90      2.21003e+40       10        0.0122825              N/A     16.42s
+  17     9.76       1.6466e+40       10        0.0122825              N/A     11.48s
+  18     9.86       1.1757e+40       10        0.0122825              N/A      5.88s
+  19     9.89      2.08143e+40       10        0.0122825              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(X0, X0), mul(mul(0.046, -0.228), X0)))
+exp(mul(mul(X0, X0), mul(mul(0.046, -0.228), X0)))
+exp(mul(mul(X0, X0), mul(mul(0.046, -0.228), X0)))
+exp(mul(mul(X0, X0), mul(mul(0.046, -0.228), X0)))
+exp(mul(mul(X0, X0), mul(mul(0.046, -0.228), X0)))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             2000               20                4              500            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        6         0.166839              N/A      3.65s
+   1    12.93      1.55889e+48        6         0.166839              N/A     55.50s
+   2    11.48      1.95412e+40       17         0.137154              N/A      1.18m
+   3    11.08       5.2187e+39       24        0.0170392              N/A      1.27m
+   4    11.37      3.61935e+39       24        0.0170392              N/A      1.59m
+   5    12.61      3.82752e+39       45        0.0723464              N/A      1.45m
+   6    15.29      1.70437e+40       24        0.0263885              N/A      1.42m
+   7    18.80      7.84666e+39       43         0.034803              N/A      1.29m
+   8    23.21      8.06694e+39       20        0.0173546              N/A      1.41m
+   9    27.38      1.15064e+40       44        0.0137414              N/A      1.49m
+  10    31.18      9.28202e+39       44        0.0137414              N/A      1.36m
+  11    34.45      1.50656e+40       29        0.0119142              N/A      1.24m
+  12    38.62      1.05956e+40       29        0.0119142              N/A      1.14m
+  13    41.84      1.85229e+40       29        0.0119142              N/A      1.09m
+  14    43.25      1.78969e+40       51        0.0116531              N/A     59.27s
+  15    44.25       1.5842e+40       65        0.0116642              N/A     49.41s
+  16    45.37      1.65294e+40       66        0.0116468              N/A     37.28s
+  17    43.18       1.2207e+40      118        0.0117388              N/A     26.48s
+  18    43.50      1.48084e+40       38         0.011098              N/A     12.45s
+  19    43.74      1.89586e+40       61        0.0101367              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(mul(neg(neg(exp(0.362))), mul(X0, 0.008)), sub(mul(exp(mul(X0, -0.113)), exp(mul(exp(neg(exp(neg(mul(neg(neg(exp(sub(X0, X0)))), mul(exp(mul(exp(neg(mul(-0.694, -0.782))), mul(neg(exp(exp(-0.059))), neg(-0.015)))), neg(X0))))))), mul(0.583, -0.705)))), neg(sub(mul(add(X0, 0.648), sub(-0.554, -0.203)), mul(X0, 0.596))))), sub(X0, -0.512)))
+exp(mul(mul(mul(neg(neg(exp(0.362))), mul(X0, 0.008)), sub(mul(exp(mul(X0, -0.113)), exp(mul(exp(neg(exp(neg(mul(neg(add(neg(neg(0.525)), sub(exp(mul(add(-0.013, X0), -0.369)), neg(X0)))), mul(add(neg(neg(0.525)), exp(-0.259)), sub(X0, 0.619))))))), mul(0.583, -0.705)))), neg(sub(mul(add(X0, 0.648), sub(-0.554, -0.203)), mul(X0, 0.596))))), sub(X0, -0.512)))
+exp(mul(mul(mul(neg(neg(exp(0.362))), mul(X0, 0.008)), sub(mul(exp(mul(X0, -0.113)), exp(mul(exp(neg(exp(mul(neg(-0.452), exp(add(neg(sub(0.042, add(sub(exp(neg(mul(sub(neg(neg(exp(mul(exp(add(-0.530, -0.636)), add(neg(add(mul(exp(mul(X0, -0.113)), mul(exp(mul(X0, -0.113)), exp(sub(X0, X0)))), sub(X0, 0.851))), mul(mul(-0.788, 0.156), neg(0.491))))))), sub(mul(-0.950, X0), X0)), mul(sub(X0, X0), exp(mul(neg(-0.192), neg(X0))))))), exp(-0.259)), neg(mul(X0, 0.008))))), add(neg(-0.804), mul(neg(0.744), sub(0.691, 0.997))))))))), mul(0.583, -0.705)))), neg(sub(mul(add(X0, 0.648), sub(-0.554, -0.203)), mul(X0, 0.596))))), sub(X0, -0.512)))
+exp(mul(mul(mul(neg(neg(exp(0.362))), mul(X0, 0.008)), sub(mul(exp(mul(X0, -0.113)), exp(exp(neg(add(-0.041, X0))))), neg(sub(mul(add(X0, 0.648), sub(-0.554, -0.203)), mul(X0, 0.596))))), sub(X0, -0.512)))
+exp(mul(mul(mul(neg(neg(exp(-0.059))), mul(X0, 0.008)), sub(mul(exp(mul(X0, -0.113)), neg(add(mul(sub(0.046, X0), mul(X0, sub(X0, X0))), neg(sub(mul(exp(mul(X0, -0.113)), exp(mul(exp(neg(exp(neg(add(-0.055, 0.828))))), exp(mul(exp(mul(X0, -0.618)), add(0.165, 0.709)))))), X0))))), neg(mul(X0, -0.849)))), sub(X0, -0.512)))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             2000               20                4              500            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        6         0.166839              N/A      6.10s
+   1    12.75      1.55889e+48        6         0.166839              N/A      1.00m
+   2    10.84      8.88858e+39       32        0.0603672              N/A      1.31m
+   3     9.50      4.75627e+39       24        0.0170392              N/A      1.40m
+   4     8.92      3.59511e+39       24        0.0170392              N/A      1.36m
+   5     8.81      3.25644e+39       24        0.0118204              N/A      1.22m
+   6     8.60      3.71641e+39       24        0.0118204              N/A      1.11m
+   7     8.50       4.3717e+39       24        0.0118204              N/A      1.05m
+   8     9.05       8.3755e+39       25        0.0142063              N/A     57.81s
+   9     9.95      1.88884e+43       50        0.0156616              N/A     51.47s
+  10    10.15       1.1077e+42       38        0.0122284              N/A     51.72s
+  11    10.99      8.31397e+39       42        0.0118889              N/A     41.75s
+  12    11.79      7.95867e+39       41        0.0122284              N/A     37.33s
+  13    11.78      3.99704e+39       39        0.0108115              N/A     34.07s
+  14    11.92      7.84341e+39       39        0.0108115              N/A     28.42s
+  15    12.49       9.0512e+39       39        0.0108115              N/A     22.37s
+  16    13.15      1.13651e+41       44        0.0108115              N/A     17.41s
+  17    13.11      7.00558e+39       39         0.012064              N/A     12.23s
+  18    13.62       9.9732e+39       39        0.0120922              N/A      5.65s
+  19    13.50      8.33668e+39       44        0.0132366              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(mul(neg(neg(exp(sub(X0, X0)))), mul(X0, 0.008)), sub(mul(neg(-0.979), neg(X0)), add(X0, -0.995))), mul(0.772, add(neg(mul(exp(-0.717), mul(sub(X0, X0), sub(0.457, 0.874)))), neg(neg(X0))))))
+exp(mul(mul(mul(neg(neg(exp(sub(X0, X0)))), mul(X0, 0.008)), sub(mul(neg(-0.979), neg(X0)), add(X0, -0.995))), mul(0.772, add(neg(mul(add(neg(neg(0.975)), exp(exp(0.439))), mul(sub(X0, X0), sub(0.457, 0.874)))), neg(neg(X0))))))
+exp(mul(mul(mul(neg(neg(exp(-0.059))), mul(X0, 0.008)), sub(mul(neg(-0.979), neg(X0)), neg(mul(X0, -0.849)))), mul(0.772, add(neg(mul(mul(exp(mul(X0, -0.113)), exp(sub(-0.066, X0))), 0.156)), neg(neg(X0))))))
+exp(mul(mul(mul(neg(neg(exp(-0.059))), mul(X0, 0.008)), sub(mul(neg(-0.979), neg(X0)), neg(mul(X0, -0.849)))), mul(0.772, add(neg(mul(mul(exp(mul(X0, -0.225)), exp(sub(-0.066, X0))), 0.156)), neg(neg(X0))))))
+exp(mul(mul(mul(X0, 0.008), sub(mul(neg(-0.979), neg(X0)), add(X0, -0.995))), mul(0.772, add(mul(exp(-0.068), neg(mul(mul(X0, -0.225), neg(neg(exp(neg(exp(exp(sub(mul(mul(-0.205, X0), 0.503), exp(neg(X0)))))))))))), neg(neg(X0))))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             5000               20               50              100            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81       28         0.151148              N/A      9.81s
+   1     8.85      4.52091e+43       28        0.0371521              N/A      2.19m
+   2    10.81       1.0321e+40       19        0.0144463              N/A      2.76m
+   3    17.62      2.06268e+40       28        0.0108612              N/A      2.95m
+   4    21.23      2.16158e+40       28        0.0108612              N/A      3.00m
+   5    17.88      1.99995e+40       23        0.0129032              N/A      3.04m
+   6    15.64      2.87915e+40       16        0.0134215              N/A      2.74m
+   7    14.41      4.97267e+44       16        0.0134215              N/A      2.51m
+   8    13.81      1.21705e+40       14        0.0140494              N/A      2.28m
+   9    13.84      1.06957e+42       14        0.0140494              N/A      2.25m
+  10    13.74      1.29784e+40       14        0.0140494              N/A      2.02m
+  11    13.73      1.08051e+40       14        0.0140494              N/A      1.83m
+  12    13.65      1.32447e+40       14        0.0140494              N/A      1.53m
+  13    13.76      1.87121e+40       14        0.0140494              N/A      1.45m
+  14    13.62      1.49283e+40       14        0.0140494              N/A      1.20m
+  15    12.91      1.27146e+40       15        0.0134209              N/A     54.77s
+  16    12.93      9.50116e+39       13        0.0140623              N/A     34.63s
+  17    12.66       8.6011e+39       13        0.0140487              N/A     28.21s
+  18    12.83      1.16165e+40       13        0.0140487              N/A     14.67s
+  19    12.80      1.02897e+40       13        0.0140486              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(neg(-0.616), mul(X0, 0.022)), sub(sub(X0, 0.380), mul(X0, X0))))
+exp(mul(mul(neg(-0.616), mul(X0, 0.022)), sub(X0, mul(X0, X0))))
+exp(mul(mul(neg(-0.619), mul(X0, 0.022)), sub(X0, mul(X0, X0))))
+exp(mul(mul(neg(-0.619), mul(X0, 0.022)), sub(X0, mul(X0, X0))))
+exp(mul(mul(neg(-0.619), mul(X0, 0.022)), sub(X0, mul(X0, X0))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             5000               20               50              100            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81       28         0.151148              N/A     10.15s
+   1     7.77      4.51798e+43       28        0.0371521              N/A      2.10m
+   2     7.36       5.3499e+39       19        0.0144463              N/A      2.53m
+   3     9.74      1.91932e+40       25        0.0119554              N/A      2.50m
+   4     7.82      1.46627e+40       25        0.0119554              N/A      2.64m
+   5     7.72      1.40428e+40       16        0.0139816              N/A      2.49m
+   6    10.09      1.12191e+40       16        0.0139816              N/A      2.26m
+   7    10.89      2.39943e+47       16         0.014703              N/A      2.20m
+   8    10.90      1.68485e+40       13        0.0165738              N/A      2.07m
+   9    10.86      1.06793e+42       16        0.0154863              N/A      1.93m
+  10    10.80      1.11703e+40       11         0.012257              N/A      1.76m
+  11    10.79      1.22133e+40       11         0.012257              N/A      1.53m
+  12    10.73      1.41559e+40       11         0.012257              N/A      1.32m
+  13    10.87      1.43845e+40       11         0.012257              N/A      1.07m
+  14    10.86      1.38027e+40       11         0.012257              N/A     49.11s
+  15    10.86      1.40564e+40       11         0.012257              N/A     44.51s
+  16    10.90      1.13749e+40       11         0.012244              N/A     34.40s
+  17    10.68      1.10384e+40       11         0.012244              N/A     22.82s
+  18    10.80      9.12198e+39       11         0.012244              N/A     11.25s
+  19    10.84      1.05407e+40       11         0.012244              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(X0, 0.107), neg(mul(X0, mul(X0, 0.098)))))
+exp(mul(mul(0.107, X0), neg(mul(X0, mul(X0, 0.098)))))
+exp(mul(mul(0.107, X0), neg(mul(X0, mul(X0, 0.098)))))
+exp(mul(mul(0.107, X0), neg(mul(X0, mul(X0, 0.098)))))
+exp(mul(mul(0.107, X0), neg(mul(X0, mul(X0, 0.098)))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             5000               20               10              500            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81       28         0.151148              N/A      8.98s
+   1    11.36       1.4821e+40       16        0.0623145              N/A      1.71m
+   2     9.17      7.94969e+39       28        0.0354136              N/A      2.24m
+   3    10.97      6.56146e+39       28        0.0354136              N/A      2.31m
+   4    13.37      7.23827e+41       24        0.0302757              N/A      2.49m
+   5    14.13      5.09099e+40       39        0.0233592              N/A      2.52m
+   6    19.03       3.7367e+41       18        0.0116307              N/A      2.45m
+   7    25.01      5.35313e+40       20        0.0110756              N/A      2.55m
+   8    27.58       1.9097e+40       30         0.014493              N/A      2.63m
+   9    27.97      1.78627e+40       29        0.0129346              N/A      2.50m
+  10    27.87      1.80133e+40       24        0.0116311              N/A      2.29m
+  11    27.45      2.22324e+40       30        0.0113492              N/A      2.12m
+  12    26.42      1.39733e+40       24        0.0116311              N/A      1.81m
+  13    24.78      1.77677e+40       28        0.0111142              N/A      1.58m
+  14    23.50      1.86645e+40       18        0.0116307              N/A      1.30m
+  15    21.64      1.30715e+40       18        0.0116307              N/A      1.03m
+  16    20.24      1.49999e+40       20        0.0109956              N/A     46.03s
+  17    18.98      1.37717e+40       20        0.0109956              N/A     30.08s
+  18    18.00      1.62007e+40       20        0.0109956              N/A     14.62s
+  19    16.80      1.54144e+40       50       0.00973238              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(neg(mul(mul(0.046, X0), mul(mul(-0.205, X0), add(mul(-0.205, X0), sub(neg(-0.435), X0))))))
+exp(neg(mul(mul(0.046, X0), mul(mul(-0.205, X0), add(add(-0.428, sub(mul(-0.205, X0), X0)), neg(-0.789))))))
+exp(neg(mul(mul(0.046, X0), mul(mul(-0.205, X0), add(add(-0.428, sub(mul(-0.205, X0), X0)), neg(-0.789))))))
+exp(neg(mul(mul(0.046, X0), mul(mul(-0.205, X0), add(add(-0.428, sub(mul(-0.205, X0), X0)), neg(-0.789))))))
+exp(mul(neg(X0), mul(neg(-0.252), mul(neg(mul(mul(0.046, X0), sub(add(X0, 0.176), exp(neg(mul(exp(mul(neg(X0), mul(neg(-0.252), mul(neg(mul(mul(0.046, X0), X0)), -0.930)))), mul(mul(-0.205, X0), add(neg(X0), mul(mul(-0.924, -0.428), mul(-0.331, X0)))))))))), -0.930))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv             True             10.0             5000               20               10              500            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81       28         0.151148              N/A      8.15s
+   1    10.63      9.35149e+42       16        0.0623145              N/A      1.71m
+   2     7.56      7.48928e+39       28        0.0354136              N/A      2.24m
+   3     8.31      6.16008e+39       28        0.0354136              N/A      2.25m
+   4     9.06      7.98783e+39       11        0.0227911              N/A      2.33m
+   5     7.51      4.63817e+40       11        0.0227911              N/A      2.26m
+   6     6.97      6.22296e+39       13         0.017827              N/A      2.02m
+   7     8.44      1.01816e+40       13         0.017827              N/A      1.82m
+   8    10.46      1.31032e+40       19        0.0141888              N/A      1.76m
+   9    11.38      9.92047e+39       16        0.0159781              N/A      1.73m
+  10    11.59      7.24001e+39       17        0.0108141              N/A      1.63m
+  11    11.24      1.13384e+40       19        0.0107786              N/A      1.48m
+  12    10.95      5.14191e+41       17        0.0108141              N/A      1.27m
+  13    11.03      1.52926e+40       17        0.0108141              N/A      1.06m
+  14    11.05      1.84703e+40       17        0.0108141              N/A     52.97s
+  15    10.96      1.95636e+40       15        0.0122402              N/A     42.69s
+  16    11.00      1.62454e+40       12        0.0146497              N/A     32.60s
+  17    10.83      1.78028e+40       12        0.0146497              N/A     21.87s
+  18    10.84        1.916e+40       14        0.0124999              N/A     11.02s
+  19    10.88       2.3077e+40       11        0.0137292              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(mul(add(mul(X0, 0.098), X0), 0.098), mul(mul(X0, 0.098), neg(X0))))
+exp(mul(mul(X0, 0.098), mul(mul(X0, 0.098), sub(-0.379, X0))))
+exp(mul(mul(X0, 0.098), mul(mul(X0, 0.098), sub(-0.379, X0))))
+exp(mul(mul(exp(-0.779), mul(X0, 0.231)), mul(mul(X0, 0.098), neg(X0))))
+exp(mul(mul(X0, 0.098), mul(mul(X0, 0.111), neg(X0))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             2000               20               20              100            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        4            0.114              N/A      3.51s
+   1    10.24      1.75281e+42       24         0.112643              N/A     41.04s
+   2    11.45      3.95088e+40       11         0.103392              N/A     53.87s
+   3    10.34      4.83745e+40       11         0.103392              N/A     57.06s
+   4     4.92      1.68858e+39       11         0.103392              N/A     55.48s
+   5     4.62      4.43773e+38       11         0.103392              N/A     46.11s
+   6     6.06      3.01733e+37       11         0.103392              N/A     42.92s
+   7     9.26      6.70983e+37       11         0.102531              N/A     42.64s
+   8    10.84      1.01475e+39       11         0.102531              N/A     43.04s
+   9    11.02      1.16503e+44       11         0.102531              N/A     43.22s
+  10    11.02      6.58252e+38       11         0.102031              N/A     40.46s
+  11    10.70      1.54483e+41       11         0.102031              N/A     34.48s
+  12    10.76      1.17141e+40       11         0.102031              N/A     30.44s
+  13    10.87       1.5584e+38       13         0.101785              N/A     26.89s
+  14    11.06      5.01141e+38       10         0.101786              N/A     21.11s
+  15    11.02      4.15645e+40       10         0.101786              N/A     17.22s
+  16    10.96      3.86484e+38       16         0.101681              N/A     13.07s
+  17    10.72      2.50478e+37       10         0.101786              N/A      8.91s
+  18    10.26      8.89841e+37       10         0.101786              N/A      4.45s
+  19    10.05      9.67638e+36       16         0.101737              N/A      0.00s
+printing the best individuals for the last 5 generations:
+mul(neg(-0.150), sub(X0, sub(0.578, mul(X0, -0.118))))
+mul(neg(-0.150), sub(X0, sub(exp(-0.712), mul(sub(add(X0, -0.255), neg(0.708)), -0.118))))
+mul(neg(-0.150), sub(X0, sub(0.578, mul(X0, -0.118))))
+mul(neg(-0.150), sub(X0, sub(0.578, mul(X0, -0.118))))
+mul(neg(-0.150), sub(X0, sub(0.578, mul(sub(add(X0, -0.455), sub(X0, X0)), -0.118))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             2000               20               20              100            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        4            0.114              N/A      3.62s
+   1     8.81       1.7517e+42       24         0.112643              N/A     41.61s
+   2     9.79      2.08367e+40       11         0.103392              N/A     52.50s
+   3     8.30      5.60387e+39       11         0.103392              N/A     55.82s
+   4     4.35      1.57001e+39        6         0.110818              N/A     53.23s
+   5     3.52      3.70947e+38        5          0.10613              N/A     45.01s
+   6     3.31         3.62e+37       10         0.106785              N/A     39.40s
+   7     3.25      6.47095e+37        3         0.115561              N/A     35.70s
+   8     3.30       6.2867e+38        5         0.106616              N/A     32.70s
+   9     3.30      9.54582e+43        3         0.115561              N/A     29.55s
+  10     3.30       1.3847e+39        3         0.115561              N/A     26.91s
+  11     3.17      1.03231e+42        3         0.115561              N/A     24.06s
+  12     3.30      7.53674e+40        5         0.106942              N/A     21.15s
+  13     3.29      9.19567e+38        5         0.108551              N/A     18.00s
+  14     3.36      7.49307e+38        5         0.106076              N/A     14.75s
+  15     3.30      2.77605e+41        5         0.111753              N/A     12.02s
+  16     3.29      1.72941e+38        3         0.114851              N/A      8.78s
+  17     3.20      1.99594e+37        3         0.114851              N/A      5.81s
+  18     3.21      5.34075e+38        3         0.114851              N/A      2.84s
+  19     3.31      5.80407e+37        6         0.113283              N/A      0.00s
+printing the best individuals for the last 5 generations:
+mul(add(X0, -0.087), 0.123)
+mul(0.116, X0)
+mul(0.116, X0)
+mul(0.116, X0)
+mul(0.116, neg(sub(0.149, X0)))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             2000               20                4              500            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        4            0.114              N/A      3.23s
+   1    12.93      1.55889e+48        4            0.114              N/A     41.41s
+   2    11.22      6.47266e+39        4            0.114              N/A     54.81s
+   3    10.14      2.14972e+69        7         0.106091              N/A      1.00m
+   4     9.39      3.39599e+40        7         0.106091              N/A     59.90s
+   5     9.47      2.44933e+40        5         0.105363              N/A     56.31s
+   6    10.46      1.63832e+41       37         0.100749              N/A     53.11s
+   7    11.56      1.51958e+78       37        0.0134394              N/A     50.68s
+   8    13.35      1.91833e+43       34        0.0789214              N/A     47.97s
+   9    14.01       9.4945e+74       24        0.0880809              N/A     46.60s
+  10    13.86      3.98666e+40       23        0.0853447              N/A     44.24s
+  11    12.41      3.92348e+39       22        0.0859329              N/A     38.36s
+  12    10.11      4.47074e+38       55        0.0205832              N/A     31.81s
+  13     7.38      7.68416e+39       22        0.0859329              N/A     25.43s
+  14     4.87      4.87745e+39       29        0.0922973              N/A     18.94s
+  15     4.21       9.5109e+36       24        0.0930193              N/A     13.26s
+  16     4.22       1.0141e+41       24        0.0904816              N/A      9.47s
+  17     4.38      7.83386e+37       24        0.0904816              N/A      6.38s
+  18     4.99      9.79651e+39       24        0.0930193              N/A      3.21s
+  19     5.34      9.70039e+37       14        0.0963406              N/A      0.00s
+printing the best individuals for the last 5 generations:
+add(neg(mul(mul(exp(add(neg(X0), sub(X0, X0))), sub(mul(X0, 0.123), sub(-0.276, X0))), mul(X0, 0.123))), mul(X0, 0.123))
+add(neg(mul(mul(exp(sub(neg(X0), sub(X0, X0))), sub(add(X0, 0.123), sub(-0.276, X0))), mul(X0, 0.123))), mul(X0, 0.123))
+add(neg(mul(mul(exp(sub(neg(X0), sub(X0, X0))), sub(add(X0, 0.123), sub(-0.276, X0))), mul(X0, 0.123))), mul(X0, 0.123))
+add(neg(mul(mul(exp(add(neg(X0), sub(X0, X0))), sub(mul(X0, 0.123), sub(-0.276, X0))), mul(X0, 0.123))), mul(X0, 0.123))
+add(neg(mul(0.082, exp(neg(mul(X0, mul(X0, 0.123)))))), mul(X0, 0.123))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             2000               20                4              500            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    19.42      3.84113e+79        4            0.114              N/A      3.64s
+   1    12.69      1.55889e+48        4            0.114              N/A     40.69s
+   2    10.19      5.77534e+39        4            0.114              N/A     54.22s
+   3     8.48      2.14972e+69        7         0.106091              N/A     56.56s
+   4     7.80      2.32627e+39        7         0.106091              N/A     58.76s
+   5     7.47      4.32028e+39        5         0.105363              N/A     54.22s
+   6     7.72      3.74009e+40       23         0.103266              N/A     48.96s
+   7     7.20      1.51958e+78       23         0.103719              N/A     46.13s
+   8     6.85      1.84089e+76       20        0.0958157              N/A     41.03s
+   9     6.37      2.56971e+39       17         0.104183              N/A     36.45s
+  10     5.69      3.52695e+39       12         0.101775              N/A     31.91s
+  11     5.03      2.81661e+39       12         0.101775              N/A     27.79s
+  12     3.98      6.55358e+38        5         0.101661              N/A     23.52s
+  13     3.39       6.4373e+39        5         0.101786              N/A     19.23s
+  14     3.24      4.14477e+39        5         0.101786              N/A     15.03s
+  15     3.40       9.5109e+36        5         0.101786              N/A     11.90s
+  16     3.35       1.0141e+41        5         0.101786              N/A      8.90s
+  17     3.31      7.83386e+37        5         0.101786              N/A      5.90s
+  18     3.40      8.57659e+39        5         0.101786              N/A      3.00s
+  19     3.31       2.7385e+37        5         0.101786              N/A      0.00s
+printing the best individuals for the last 5 generations:
+mul(add(-0.587, X0), 0.132)
+mul(add(-0.587, X0), 0.132)
+mul(add(-0.587, X0), 0.132)
+mul(add(-0.587, X0), 0.132)
+mul(add(-0.587, X0), 0.132)
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             5000               20               50              100            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81        4            0.114              N/A      8.34s
+   1    10.07      2.31491e+41       14         0.102432              N/A      1.71m
+   2    11.32      3.56493e+40       14         0.102432              N/A      2.21m
+   3     6.37      1.11713e+39       15          0.10243              N/A      2.26m
+   4     9.11      5.53754e+38       23         0.100492              N/A      2.01m
+   5     6.12      6.21687e+38        5         0.103717              N/A      2.06m
+   6     5.28      8.19381e+38        5          0.10352              N/A      1.77m
+   7     5.17      2.39943e+47        5          0.10352              N/A      1.59m
+   8     5.17       4.7197e+38        5          0.10352              N/A      1.52m
+   9     5.17      1.05641e+42        5          0.10352              N/A      1.35m
+  10     5.10       3.4411e+41        5          0.10352              N/A      1.17m
+  11     5.10      9.81822e+37        5          0.10352              N/A      1.11m
+  12     5.13      1.04111e+55        5          0.10352              N/A     59.38s
+  13     5.17      5.48838e+76       14         0.101796              N/A     50.34s
+  14     5.13      2.13814e+39        5         0.103516              N/A     41.27s
+  15     5.13      1.74106e+75        5         0.103516              N/A     34.14s
+  16     5.18      5.90195e+38        5         0.103516              N/A     25.28s
+  17     5.09      2.68812e+38        5         0.103516              N/A     16.26s
+  18     5.15      1.05545e+47        5         0.103516              N/A      7.68s
+  19     5.16      1.08739e+45        5         0.103516              N/A      0.00s
+printing the best individuals for the last 5 generations:
+mul(-0.141, sub(0.817, X0))
+mul(-0.141, sub(0.817, X0))
+mul(-0.141, sub(0.817, X0))
+mul(-0.141, sub(0.817, X0))
+mul(-0.141, sub(0.817, X0))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             5000               20               50              100            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81        4            0.114              N/A      6.78s
+   1     8.71      2.29423e+41       14         0.102432              N/A      1.69m
+   2     8.89      6.97826e+39       19         0.102206              N/A      2.16m
+   3     4.50      7.71932e+38        6         0.103734              N/A      2.17m
+   4     3.57      9.63394e+38        6         0.103734              N/A      1.88m
+   5     3.37      7.27192e+38        5         0.112818              N/A      1.72m
+   6     3.27      1.04496e+39        5         0.106507              N/A      1.59m
+   7     3.25      2.39943e+47        8         0.113465              N/A      1.47m
+   8     3.27      1.19637e+39        3         0.114583              N/A      1.30m
+   9     3.29      1.05655e+42        8         0.114111              N/A      1.23m
+  10     3.21      3.84826e+40       15         0.113158              N/A      1.12m
+  11     3.23      1.47778e+39        3         0.114583              N/A     59.65s
+  12     3.26      1.04111e+55        3         0.114056              N/A     52.79s
+  13     3.30      3.90483e+77        3         0.114056              N/A     44.71s
+  14     3.26      2.16625e+39        3         0.114056              N/A     37.14s
+  15     3.24      1.45771e+75        5          0.11099              N/A     29.11s
+  16     3.28      2.53004e+39        5         0.111705              N/A     21.62s
+  17     3.21      7.76148e+38        3         0.114056              N/A     14.90s
+  18     3.25      1.05545e+47        5         0.110841              N/A      7.52s
+  19     3.29      7.61219e+46        3         0.114056              N/A      0.00s
+printing the best individuals for the last 5 generations:
+mul(sub(X0, 0.178), 0.118)
+mul(add(X0, -0.348), 0.118)
+mul(X0, 0.118)
+mul(add(-0.244, X0), 0.118)
+mul(X0, 0.118)
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             5000               20               10              500            0.001
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81        4            0.114              N/A      6.75s
+   1    12.13      3.58272e+46        7         0.102546              N/A      1.68m
+   2     9.71      3.89405e+40        7         0.102546              N/A      2.22m
+   3    12.17      6.47856e+65       24         0.104003              N/A      2.30m
+   4    14.19      8.78161e+40       37        0.0294033              N/A      2.47m
+   5    12.41      3.44688e+76       35        0.0135864              N/A      2.51m
+   6     9.06      2.66733e+59       23        0.0107301              N/A      2.26m
+   7     7.60      9.28364e+38       23        0.0107301              N/A      1.92m
+   8    10.35      2.97646e+45       19        0.0107025              N/A      1.64m
+   9    16.68      7.70989e+75       33        0.0100109              N/A      1.63m
+  10    26.26      3.11479e+39       19        0.0107025              N/A      1.74m
+  11    32.41      4.83406e+39       35        0.0104929              N/A      1.99m
+  12    33.08      5.82048e+39       35        0.0101991              N/A      2.02m
+  13    31.75      8.18085e+39       31         0.010182              N/A      1.81m
+  14    30.42      6.01828e+39       32        0.0101233              N/A      1.50m
+  15    29.07      6.32334e+39       37        0.0100391              N/A      1.18m
+  16    28.13      8.64179e+39       29        0.0101257              N/A     51.70s
+  17    26.44       8.5611e+39       29        0.0101257              N/A     34.07s
+  18    25.68      9.07685e+39       29        0.0101257              N/A     16.68s
+  19    24.44      7.47988e+39       29        0.0101257              N/A      0.00s
+printing the best individuals for the last 5 generations:
+exp(mul(exp(add(0.277, sub(add(exp(-0.443), add(exp(-0.443), sub(neg(0.142), X0))), mul(add(exp(-0.443), add(exp(-0.443), sub(-0.253, X0))), sub(X0, X0))))), sub(neg(add(0.277, 0.850)), add(X0, X0))))
+exp(mul(exp(add(0.277, sub(add(exp(0.123), sub(neg(0.142), X0)), neg(0.151)))), sub(neg(exp(exp(neg(add(add(0.650, 0.798), neg(-0.811)))))), add(X0, X0))))
+exp(mul(exp(add(0.277, sub(add(exp(0.123), sub(neg(0.142), X0)), neg(0.151)))), sub(neg(exp(exp(neg(add(add(0.650, 0.798), neg(-0.811)))))), add(X0, X0))))
+exp(mul(exp(add(0.277, sub(add(exp(0.123), sub(neg(0.142), X0)), neg(0.151)))), sub(neg(exp(exp(neg(add(add(0.650, 0.798), neg(-0.811)))))), add(X0, X0))))
+exp(mul(exp(add(0.277, sub(add(exp(0.123), sub(neg(0.142), X0)), neg(0.151)))), sub(neg(exp(exp(neg(add(add(0.650, 0.798), neg(-0.811)))))), add(X0, X0))))
+Age of extinction, kill all.. Start new generation..
+
+
+
+        filename            y_def          scale_X         pop_size         gen_size        tour_size      tour_factor       pars_coeff
+    102C_mod.csv            False             10.0             5000               20               10              500            0.005
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0    20.10      5.64601e+81        4            0.114              N/A      7.10s
+   1    10.87      3.58272e+46        7         0.102546              N/A      1.69m
+   2     8.22      2.99045e+40        8         0.102206              N/A      2.19m
+   3     9.50      6.32783e+40       13        0.0775311              N/A      2.18m
+   4    10.11      8.16442e+40       13        0.0775311              N/A      2.35m
+   5     8.05      2.23755e+67       27        0.0524495              N/A      2.30m
+   6     5.25      9.77072e+60       27        0.0524495              N/A      2.03m
+   7     3.54      1.83572e+38        8         0.102206              N/A      1.65m
+   8     3.33      2.97646e+45        8         0.103395              N/A      1.38m
+   9     3.25      7.70989e+75        5         0.110089              N/A      1.23m
+  10     3.25       6.8016e+45        9         0.111765              N/A      1.11m
+  11     3.25       9.2704e+38        5         0.106224              N/A     59.51s
+  12     3.24       3.7648e+42        5          0.10608              N/A     53.26s
+  13     3.27      1.50195e+39        5          0.10842              N/A     43.59s
+  14     3.30      1.24012e+39        5          0.11102              N/A     35.85s
+  15     3.26      9.48217e+42        3         0.113975              N/A     28.68s
+  16     3.30       7.4485e+43        5         0.112098              N/A     21.33s
+  17     3.21      3.99195e+38        5         0.110064              N/A     14.42s
+  18     3.27      9.06699e+38        3         0.113975              N/A      7.22s
+  19     3.27      6.21965e+38        5         0.109999              N/A      0.00s
+printing the best individuals for the last 5 generations:
+mul(X0, 0.118)
+mul(add(-0.435, X0), 0.118)
+mul(add(X0, -0.285), 0.118)
+mul(X0, 0.118)
+mul(sub(X0, 0.261), 0.118)
+Age of extinction, kill all.. Start new generation..
+

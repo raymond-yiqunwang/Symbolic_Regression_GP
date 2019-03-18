@@ -1,0 +1,9 @@
+135C_mod:
+scale_X: None, k = 0.000244, n = 3.64
+scale_X: 10,   k = 0.166,    n = 3.64
+scale_X: 1,    k = 723.967,  n = 3.64
+
+135C_origin:
+scale_X: None, k = 0.00061,  n = 3.2
+scale_X: 10,   k = 0.0187,   n = 3.2
+scale_X: 1,    k = 29.66,    n = 3.2

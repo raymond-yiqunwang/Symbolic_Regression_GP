@@ -1,0 +1,9 @@
+119C_mod:
+scale_X: None, k = 8.1E-5,  n = 2.92
+scale_X: 10,   k = 0.068,   n = 2.92
+scale_X: 1,    k = 57.11,   n = 2.92
+
+119C_origin:
+scale_X: None, k = 3.87E-4, n = 2.36
+scale_X: 10,   k = 0.0388,  n = 2.36
+scale_X: 1,    k = 8.92,    n = 2.36

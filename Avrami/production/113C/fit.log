@@ -1,0 +1,9 @@
+113C_mod:
+scale_X: 20, k = 0.0077, n = 2.47
+scale_X: 10, k = 0.042,  n = 2.47
+scale_X: 1,  k = 12.45,  n = 2.47
+
+113C_origin:
+scale_X: 20, k = 0.0027, n = 2.78
+scale_X: 10, k = 0.0184, n = 2.78
+scale_X: 1,  k = 11.08,  n = 2.78

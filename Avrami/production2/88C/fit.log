@@ -1,0 +1,9 @@
+88C_mod:
+scale_X: 20, k = 0.0015, n = 3
+scale_X: 10, k = 0.012,  n = 3
+scale_X: 1,  k = 12.12,  n = 3
+
+88C_origin:
+scale_X: 20, k = 7.4E-4, n = 2.84
+scale_X: 10, k = 0.0053, n = 2.84
+scale_X: 1,  k = 3.68,   n = 2.84

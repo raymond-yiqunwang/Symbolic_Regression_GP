@@ -1,0 +1,9 @@
+102C_mod:
+scale_X: 20, k = 0.001, n = 3.1
+scale_X: 10, k = 0.01,  n = 3.1
+scale_X: 1,  k = 11.42, n = 3.1
+
+102C_origin:
+scale_X: 20, k = 7.3E-4, n = 2.9
+scale_X: 10, k = 0.0054, n = 2.9
+scale_X: 1,  k = 4.31,   n = 2.9
