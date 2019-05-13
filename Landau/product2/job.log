@@ -1,0 +1,1368 @@
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      1.13231e+32       55          270.914          293.192     56.24s
+   1    44.92      2.44815e+12       93          234.904          247.063      2.93m
+   2    47.83       1.0622e+06       93          232.113          280.388      2.54m
+   3    44.29      1.41628e+08       91          228.028          264.963      2.35m
+   4    50.46      1.96103e+11      105          207.569          227.727      2.16m
+   5    86.73      3.90422e+08       99          187.062          196.333      2.13m
+   6    91.60           685222      103          178.671          177.887      2.33m
+   7    95.78           863845      107          168.601          165.872      2.14m
+   8   100.30      3.47507e+10      105          164.357          181.941      1.94m
+   9    99.93      1.52961e+13      101          159.884          183.784      1.63m
+  10   101.60      6.17979e+15      141          157.209           168.23      1.32m
+  11   106.54      9.40742e+06      129          152.404          160.942      1.02m
+  12   111.74      5.11342e+06      129          149.473          184.025     42.87s
+  13   112.77      1.16736e+13      129           148.74          159.826     22.24s
+  14   118.08      1.44008e+13      139          138.644          132.943      0.00s
+printing the best individuals for the last 10 generations:
+mul(mul(mul(sub(add(X0, 0.246), add(0.098, X0)), mul(mul(-0.103, -1.254), sub(-0.027, X1))), sub(mul(add(X1, X0), mul(sub(X1, X1), mul(-0.937, -0.094))), add(add(X1, -1.968), add(X0, add(add(add(add(1.586, X1), add(X1, 1.666)), mul(add(X0, X1), mul(-0.498, X1))), sub(mul(add(add(add(-1.002, X0), mul(X0, X0)), mul(sub(add(X0, 0.246), add(0.098, X0)), mul(mul(-0.103, X0), sub(-0.027, X1)))), mul(X0, 1.179)), sub(add(X0, X1), mul(sub(add(X0, X0), add(0.098, X0)), mul(mul(-0.103, X0), add(add(add(1.586, X1), add(X1, 1.666)), mul(add(X0, X1), add(-0.498, X1)))))))))))), sub(add(sub(add(X0, X0), add(1.586, X1)), sub(add(X0, -1.346), mul(-1.206, X0))), add(mul(add(X0, -0.035), sub(X0, X0)), sub(sub(X0, X0), sub(-1.176, X0)))))
+======================================================================
+mul(mul(mul(sub(add(X0, 0.246), add(0.098, X0)), mul(mul(-0.103, add(1.288, -0.653)), sub(-0.027, X1))), sub(mul(mul(X0, X0), add(1.288, -0.653)), add(add(X0, -1.968), add(mul(X0, X0), add(add(mul(X0, 1.179), mul(add(X0, X1), add(-0.498, X1))), sub(mul(sub(add(X1, sub(mul(-1.639, X1), sub(X0, -0.127))), mul(sub(0.085, sub(X1, -1.664)), X0)), add(X1, sub(add(sub(0.593, X0), add(1.049, X0)), add(sub(0.851, X0), mul(mul(-0.103, 1.627), sub(-0.027, X1)))))), sub(add(X0, X1), sub(1.180, X1)))))))), sub(add(sub(add(X0, X0), add(X0, X1)), sub(sub(-0.767, -0.003), mul(-1.206, X0))), add(mul(add(mul(X0, X0), add(X1, 1.666)), sub(X0, X0)), sub(sub(X0, X0), sub(-1.176, X0)))))
+======================================================================
+mul(mul(mul(sub(add(X0, 0.246), add(0.098, X0)), mul(mul(-0.103, add(1.288, -0.653)), sub(-0.027, X1))), sub(mul(mul(X0, X0), add(1.288, -0.653)), add(add(X0, -1.968), add(mul(X0, X0), add(add(mul(X0, 1.179), mul(add(X0, X1), add(-0.498, X1))), sub(mul(sub(add(X1, sub(mul(-1.639, X1), sub(X0, -0.127))), mul(sub(0.085, sub(X1, -1.664)), X0)), add(X1, sub(add(sub(0.593, X0), add(1.049, X0)), add(sub(0.851, X0), mul(mul(-0.103, 1.627), sub(-0.027, X1)))))), sub(add(X0, X1), sub(1.180, X1)))))))), sub(add(sub(add(X0, X0), add(X0, X1)), sub(sub(-0.767, -0.003), mul(-1.206, X0))), add(mul(add(mul(X0, X0), add(X1, 1.666)), sub(X0, X0)), sub(sub(X0, X0), sub(-1.176, X0)))))
+======================================================================
+mul(mul(mul(sub(add(X0, 0.246), add(0.098, X0)), mul(mul(-0.103, 1.627), sub(-0.027, X1))), sub(mul(sub(mul(X1, X1), sub(add(X0, -1.346), add(X0, 0.481))), add(1.288, -0.653)), add(add(X0, X0), add(X0, add(add(add(sub(sub(add(X0, X1), add(X0, X1)), X1), mul(X1, 1.666)), mul(add(X0, X1), add(-1.971, X1))), sub(sub(sub(X1, 1.843), mul(-0.103, X0)), sub(add(X0, X1), sub(1.180, X1)))))))), sub(add(add(sub(mul(X0, 1.179), add(X0, X1)), sub(sub(-0.767, -0.003), mul(sub(sub(add(mul(-0.761, X1), mul(X1, X0)), add(sub(X1, X1), add(X0, 0.481))), mul(-1.206, X0)), X0))), sub(add(X0, -1.346), mul(-1.206, X0))), add(sub(X0, X0), sub(sub(X0, -1.974), sub(-1.176, X0)))))
+======================================================================
+mul(mul(mul(sub(add(X0, 0.246), add(0.098, X0)), mul(mul(-0.103, 1.627), sub(-0.027, X1))), sub(mul(sub(mul(X1, X1), sub(add(X0, -1.346), add(X0, 0.481))), add(1.288, -0.653)), add(add(X0, X0), add(X0, add(add(add(sub(sub(add(X0, X1), add(X0, X1)), X1), mul(X1, 1.666)), mul(add(X0, X1), add(-1.971, X1))), sub(sub(sub(X1, 1.843), mul(-0.103, X0)), sub(add(X0, X1), sub(1.180, X1)))))))), sub(add(add(sub(mul(X0, 1.179), add(X0, X1)), sub(sub(-0.767, -0.003), mul(sub(sub(sub(add(X1, sub(mul(-1.639, X1), sub(X0, -0.127))), mul(sub(0.085, sub(X1, -1.664)), X0)), add(sub(X1, X1), add(X0, 0.481))), mul(-1.206, X0)), X0))), sub(add(X0, -1.346), mul(-1.206, X0))), add(sub(X0, X0), sub(sub(X0, -1.974), sub(-1.176, X0)))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest0.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      1.13231e+32       55          270.914          293.192      1.14m
+   1    46.53      4.42951e+08       41          240.018          228.861      2.94m
+   2    46.09      3.28941e+07       39           224.02          243.629      2.56m
+   3    37.39      2.41018e+10       37          170.826          174.725      2.39m
+   4    39.96           158642       35          140.578          148.296      2.19m
+   5    37.54      1.72667e+10       33          102.471          96.5283      1.98m
+   6    37.83      1.14409e+07       47          98.9303          131.918      1.64m
+   7    43.10      6.19352e+06       71          94.0472          93.9321      1.45m
+   8    40.58      1.40658e+11       73            75.07          74.6287      1.31m
+   9    40.59      1.60863e+10       77          61.0955          66.6434      1.08m
+  10    60.10      1.70617e+11      123          39.8992          38.3252     54.78s
+  11    77.82      3.44852e+13      139          32.9258          37.2537     48.26s
+  12    87.26      4.33256e+06      137          32.1438          31.1244     34.92s
+  13   108.32           983180      139          31.2987          30.4174     19.05s
+  14   120.66      3.66274e+09      139          30.2721          41.3661      0.00s
+printing the best individuals for the last 10 generations:
+add(add(mul(mul(mul(0.006, X1), mul(mul(sub(-1.774, -0.840), mul(-0.815, X1)), mul(X1, 1.181))), add(mul(X0, X1), add(mul(X1, 1.181), X0))), add(sub(mul(X1, 0.221), sub(add(mul(sub(add(mul(add(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), X1)), mul(-0.373, 1.210)), sub(mul(X1, X1), sub(X0, -1.024))), 0.561)), sub(X0, X1))), add(sub(mul(X1, 0.221), sub(add(mul(sub(add(mul(sub(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, mul(X1, 0.221)), mul(X1, 1.181)))), X1), add(mul(X1, X1), X1)), mul(-0.373, 1.210)), sub(mul(X1, X1), sub(X0, -1.024))), 0.561)), sub(X0, X1)))
+======================================================================
+add(mul(mul(mul(0.006, X1), mul(mul(sub(-1.774, -0.840), mul(-0.815, X1)), mul(X1, 1.181))), add(mul(X0, X1), add(X1, X0))), add(sub(mul(X1, 0.221), sub(add(mul(sub(add(mul(add(X0, X1), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), mul(sub(add(mul(add(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), X1)), mul(-0.373, 1.210)))), mul(-0.373, 1.210)), sub(add(mul(sub(sub(add(add(mul(X1, mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), X1), add(mul(X1, X1), X1)), add(mul(X1, X1), X1)), mul(-0.373, 1.210)), sub(mul(add(X1, -0.537), mul(X1, 1.181)), sub(X0, -1.024))), sub(X0, -1.024))), 0.561)), sub(X0, X1)))
+======================================================================
+add(mul(mul(mul(0.006, X1), mul(mul(sub(-1.774, -0.840), mul(-0.815, X1)), mul(X1, 1.181))), add(mul(X0, X1), add(X1, X0))), add(sub(mul(X1, 0.221), sub(add(mul(sub(add(mul(add(X0, X1), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), mul(sub(add(mul(mul(X1, 1.181), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), X1)), mul(-0.373, 1.210)))), mul(-0.373, 1.210)), sub(add(mul(sub(sub(add(add(mul(X1, mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), X1), add(mul(X1, X1), X1)), add(mul(X1, X1), X1)), mul(-0.373, 1.210)), sub(mul(add(X1, -0.537), mul(X1, 1.181)), sub(X0, -1.024))), sub(X0, -1.024))), 0.561)), sub(X0, X1)))
+======================================================================
+add(mul(mul(mul(0.006, X1), mul(mul(sub(-1.774, -0.840), mul(-0.815, X1)), mul(X1, 1.181))), add(mul(X0, X1), add(X1, X0))), add(sub(mul(X1, 0.221), sub(add(mul(sub(add(mul(add(X1, -0.537), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), mul(sub(add(mul(add(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), X1)), mul(-0.373, 1.210)))), mul(-0.373, 1.210)), sub(add(mul(sub(sub(add(add(mul(X1, mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), X1), add(mul(X1, X1), X1)), add(mul(X1, X1), X1)), mul(-0.373, 1.210)), sub(mul(add(X1, -0.537), mul(X1, 1.181)), sub(X0, -1.024))), sub(X0, -1.024))), 0.561)), sub(X0, X1)))
+======================================================================
+add(mul(mul(mul(0.006, X1), mul(mul(sub(-1.774, -0.840), mul(-0.815, X1)), mul(X1, 1.181))), add(mul(X0, X1), add(X1, X0))), add(sub(mul(X1, 0.221), sub(add(mul(sub(add(mul(add(X0, X1), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), mul(sub(add(mul(add(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(mul(X1, X1), X1)), mul(-0.373, 1.210)))), mul(-0.373, 1.210)), sub(add(mul(sub(sub(add(add(mul(X1, mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), X1), add(mul(X1, X1), X1)), add(mul(X1, X1), X1)), add(-0.827, X0)), sub(mul(add(X1, -0.537), mul(X1, 1.181)), sub(X0, -1.024))), sub(X0, -1.024))), 0.561)), sub(X0, X1)))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest1.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      3.12442e+38       55          270.914          293.192      1.78m
+   1    45.74      5.05603e+09      125          267.596          313.602      5.80m
+   2    51.62      1.51539e+09       35          235.981          240.437      5.26m
+   3    44.11      5.53828e+14       53          193.078           186.37      4.85m
+   4    39.78      1.29824e+10       53          187.219          234.064      4.25m
+   5    40.27      1.78598e+16       33          129.094           130.24      3.89m
+   6    39.58      5.10279e+14       33          124.244          150.505      3.48m
+   7    44.20      6.70751e+08       55          88.7422          84.2097      3.12m
+   8    41.22      5.64942e+07       37          84.7806          80.6823      2.79m
+   9    38.05      2.85119e+21       95          67.0992          59.9727      2.33m
+  10    46.74      1.03534e+09       95            65.46          56.1267      1.83m
+  11    60.91      5.58648e+08       87          48.4576          42.0208      1.48m
+  12    64.45      3.40147e+24       91          33.6787          29.7673      1.10m
+  13    73.79      2.57385e+12      111          31.9706          31.2719     35.28s
+  14    98.64      1.25622e+09      181          23.3386          24.8324      0.00s
+printing the best individuals for the last 10 generations:
+sub(sub(mul(add(sub(sub(sub(add(sub(add(sub(sub(sub(add(-1.164, -1.418), add(add(X0, X0), -1.348)), mul(1.297, X1)), mul(-0.018, X1)), mul(add(mul(-1.557, -0.031), mul(X1, X1)), mul(0.012, X1))), sub(add(-0.667, 0.113), sub(mul(add(mul(mul(X1, X1), mul(0.012, X1)), add(X1, X0)), -0.162), sub(mul(add(X0, X1), X0), sub(X1, X1))))), -1.418), add(0.050, -1.348)), add(sub(-1.098, 1.515), mul(X0, X1))), mul(-0.018, X1)), mul(mul(X0, add(mul(X1, X1), sub(X1, X1))), mul(0.012, X1))), X1), 1.165), X1)
+======================================================================
+sub(sub(mul(add(sub(sub(sub(sub(add(-0.667, 0.113), mul(0.012, X1)), X1), sub(sub(add(X0, X1), add(0.050, -1.348)), mul(X0, X1))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), mul(-0.295, sub(sub(mul(add(sub(sub(sub(sub(-1.334, add(mul(X0, -1.768), sub(-1.978, X0))), X1), add(add(X1, -1.797), sub(sub(add(X0, X1), add(mul(-0.018, X1), -1.348)), mul(X0, X1)))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), -1.334), X1))), X1)
+======================================================================
+sub(sub(mul(add(sub(sub(sub(sub(add(-0.667, 0.113), add(mul(X0, -1.768), sub(-1.978, X0))), X1), sub(sub(add(X0, X1), add(0.050, -1.348)), mul(X0, X1))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), mul(-0.295, sub(sub(mul(add(sub(sub(sub(sub(-1.334, add(mul(X0, -1.768), sub(-1.978, X0))), X1), add(add(X1, -1.797), sub(sub(add(X0, X1), add(mul(-0.018, X1), -1.348)), mul(X0, X1)))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), -1.334), X1))), X1)
+======================================================================
+sub(sub(mul(add(sub(sub(sub(sub(add(-0.667, 0.113), mul(0.012, X1)), X1), sub(mul(add(add(0.050, -1.348), X0), mul(0.559, X0)), mul(add(-1.126, X0), X1))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), mul(-0.295, sub(sub(mul(add(sub(sub(sub(sub(-1.334, add(mul(X0, -1.768), sub(-1.978, X0))), X1), add(sub(-1.098, 1.515), sub(sub(add(mul(X0, -0.251), add(X1, X1)), sub(add(-0.667, 0.113), sub(add(X1, X0), sub(mul(add(X0, X1), X0), sub(mul(X0, -0.236), mul(X1, X0)))))), mul(X0, X1)))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), -1.334), X1))), X1)
+======================================================================
+sub(sub(mul(add(sub(sub(sub(sub(add(-0.667, 0.113), add(X0, X0)), X1), add(sub(-1.098, 1.515), mul(1.114, X0))), sub(sub(sub(sub(add(-1.164, -1.418), add(0.050, -1.348)), mul(0.012, X1)), sub(X0, X1)), add(add(-1.002, X0), mul(X0, X1)))), mul(mul(X1, X1), mul(0.012, X1))), X1), mul(-0.295, sub(sub(mul(add(sub(sub(sub(sub(-1.334, add(mul(X0, -1.768), mul(1.297, X1))), X1), add(sub(-1.098, 1.515), sub(sub(add(X0, X1), add(mul(-0.018, X1), -1.348)), mul(X0, X1)))), mul(-0.018, X1)), mul(mul(X1, X1), mul(0.012, X1))), X1), mul(-0.295, sub(sub(mul(add(sub(sub(sub(sub(-1.334, add(mul(X0, -1.768), sub(-1.978, X0))), X1), add(sub(-1.098, 1.515), sub(sub(add(mul(X0, -0.251), add(X1, X1)), sub(add(-0.667, 0.113), sub(mul(-0.018, X1), sub(mul(add(X0, X1), X0), sub(mul(X0, -0.236), mul(X1, X0)))))), mul(0.012, X1)))), sub(-1.334, add(mul(X0, -1.768), sub(add(-0.287, X0), mul(X1, -0.160))))), mul(mul(X1, X1), mul(0.012, X1))), X1), -1.334), X1))), X1))), X1)
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest2.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      3.12442e+38       55          270.914          293.192      1.73m
+   1    47.83      6.30511e+17       59          195.344          193.362      5.82m
+   2    48.40      1.81719e+19       59          187.473          197.675      5.29m
+   3    38.83      7.10864e+13       61          184.885          216.321      4.73m
+   4    52.19      2.90195e+10       25          143.064           144.22      4.14m
+   5    58.65       2.0456e+11       25          141.811          154.965      4.15m
+   6    56.35      3.97332e+07       27          120.016          127.038      3.86m
+   7    43.47      6.52497e+10       29          117.817          127.828      3.34m
+   8    26.56      5.58442e+14       27          115.305          161.594      2.65m
+   9    28.95      5.96337e+10       23          93.8941          92.4044      1.99m
+  10    28.34      2.56639e+11       33          86.1902          94.7549      1.60m
+  11    29.23      5.80496e+25       31           77.357          88.1011      1.20m
+  12    29.46      9.69989e+08       37          74.8834          68.8573     52.10s
+  13    30.55      1.40034e+10       33          62.4991          71.0292     24.95s
+  14    32.82      9.60011e+08       33          62.2745          72.7836      0.00s
+printing the best individuals for the last 10 generations:
+mul(X1, add(X0, sub(X0, sub(mul(X1, X0), sub(X0, sub(add(X0, X1), mul(X1, mul(mul(-1.130, mul(X1, -0.005)), add(mul(X0, mul(1.382, X1)), mul(1.382, X1))))))))))
+======================================================================
+mul(X1, add(-1.124, sub(X0, sub(add(mul(X0, mul(1.382, X1)), X1), mul(X1, mul(mul(-1.130, mul(X1, -0.005)), add(mul(mul(1.644, X1), X0), mul(1.382, X1))))))))
+======================================================================
+mul(mul(X1, 1.118), add(-1.124, sub(X0, sub(add(mul(X0, mul(1.382, X1)), sub(X1, 0.273)), mul(X1, mul(mul(-1.130, mul(X1, -0.005)), add(mul(X0, mul(1.382, X1)), mul(1.382, sub(X1, 0.273)))))))))
+======================================================================
+mul(X1, sub(X0, sub(mul(X1, X0), add(-1.124, sub(X0, sub(mul(1.382, X1), mul(X1, mul(mul(-1.130, mul(X1, -0.005)), add(mul(X0, mul(1.382, X1)), mul(1.644, X1))))))))))
+======================================================================
+mul(X1, sub(X0, sub(mul(X1, X0), add(-1.124, sub(X0, sub(mul(1.382, X1), mul(X1, mul(mul(-1.130, mul(X1, -0.005)), add(mul(X0, mul(1.382, X1)), mul(1.644, X1))))))))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest3.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      1.66582e+32       31          283.231          338.745     55.37s
+   1    45.19      1.23759e+13       31          280.992          354.771      2.88m
+   2    49.09           406449       55          276.399          366.854      2.51m
+   3    45.60      1.83084e+08       57           275.17          364.421      2.39m
+   4    43.24      1.07891e+09       31          271.813          411.702      2.18m
+   5    41.87      2.00537e+09       59          273.693          372.654      1.91m
+   6    40.84          86246.8       61          272.802          388.703      1.75m
+   7    41.19      6.30479e+06       53          272.274          374.828      1.59m
+   8    41.53      1.43925e+07       47          272.244          380.754      1.39m
+   9    43.34           680332       45          269.933          385.055      1.19m
+  10    45.58        2.095e+14       73           266.23          340.149     58.10s
+  11    46.85           713907       49          264.951          308.437     44.34s
+  12    50.46      1.07199e+07       53          256.488          361.828     30.94s
+  13    55.27      1.43467e+13      101          247.416          370.844     15.90s
+  14    59.17      1.22236e+13       75          248.872          269.903      0.00s
+printing the best individuals for the last 10 generations:
+add(add(add(-1.002, add(add(1.322, add(X0, X1)), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(sub(add(add(X1, 1.643), mul(X0, X1)), X1), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(add(X0, add(1.322, X0)), -1.862), sub(X0, 1.772)))), sub(X0, 1.772))))), mul(add(X1, X0), add(X0, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+mul(-1.948, add(mul(sub(1.104, sub(X0, -1.904)), sub(mul(X1, X1), add(sub(X0, -0.637), -0.912))), sub(sub(mul(X0, add(X0, X0)), sub(-1.941, X0)), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(X1, -1.862), sub(sub(add(X1, X0), sub(X0, -1.904)), 1.772))))))
+======================================================================
+mul(-1.948, add(mul(sub(1.104, sub(X0, -1.904)), sub(mul(X1, X1), add(sub(add(X0, add(1.322, X0)), -0.637), -0.912))), sub(sub(mul(X0, add(X0, X0)), sub(-1.941, X0)), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(X1, -1.862), sub(sub(sub(X1, X0), add(X0, X0)), 1.772))))))
+======================================================================
+add(add(add(-1.002, add(add(1.322, 1.643), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(sub(add(add(X1, 1.643), mul(X0, X1)), X1), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(mul(X0, X0), sub(-1.941, X0)), sub(X0, 1.772)))), sub(X0, 1.772))))), mul(add(X1, X0), add(X0, X0))), mul(-1.948, add(mul(sub(1.104, sub(X0, -1.904)), sub(mul(X1, X1), sub(X0, -0.637))), sub(sub(mul(X0, add(X0, X0)), sub(-1.941, X0)), mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(X1, -1.862), sub(sub(X1, add(X0, X0)), 1.772)))))))
+======================================================================
+add(add(mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(sub(X1, -1.862), add(add(add(add(-1.002, X0), mul(X0, X0)), add(X0, mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(mul(-1.363, -1.780), sub(X0, 1.772))))), add(X1, mul(mul(sub(-1.058, X0), mul(-1.363, -1.780)), sub(mul(-1.363, -1.780), sub(X0, 1.772))))))), X0), add(mul(add(add(0.464, X0), add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest4.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      1.66582e+32       31          283.231          338.745     50.29s
+   1    47.58      5.17843e+08       41          252.571          212.892      2.94m
+   2    49.33      6.21503e+07       41          236.855          327.314      2.59m
+   3    43.21       2.9544e+10       37          173.052          191.364      2.37m
+   4    41.45           206141       51          149.671          151.595      2.06m
+   5    39.01       3.6373e+08       71          113.283          95.4722      1.89m
+   6    38.94      1.18037e+07       73          101.772          159.024      1.76m
+   7    43.08      5.10944e+08       59          97.5782          97.1894      1.52m
+   8    62.28      1.30112e+09       57          95.4288          103.384      1.42m
+   9    63.76      1.90396e+10       65          89.5998          71.2295      1.26m
+  10    60.95      3.42399e+11       61          85.2207            115.3      1.01m
+  11    60.40      4.01405e+13       67          84.8155          113.276     47.83s
+  12    62.81           348172       61          82.7642          127.029     30.40s
+  13    63.85      1.61735e+07       69          82.7173          118.322     15.84s
+  14    63.75      5.44656e+11       65          82.4867          124.153      0.00s
+printing the best individuals for the last 10 generations:
+add(sub(add(add(mul(mul(X1, 1.181), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(X1, mul(X0, X1))), sub(X1, sub(add(mul(-1.481, X0), sub(-0.448, X1)), mul(add(X1, -0.537), mul(X1, 1.181))))), add(mul(mul(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), add(X1, -0.537)))), X1))
+======================================================================
+add(sub(add(add(mul(mul(X1, 1.181), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(X1, mul(X0, X1))), sub(X1, sub(add(mul(-1.481, X0), sub(-0.448, mul(X1, 1.181))), add(add(X1, 1.567), mul(add(X1, -0.537), mul(X1, 1.181)))))), add(mul(mul(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), add(X1, -0.537)))), X1))
+======================================================================
+add(sub(add(add(mul(mul(X1, 1.181), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(X1, sub(-0.448, X1))), sub(X1, sub(mul(X0, X1), add(add(X1, 1.567), mul(add(X1, -0.537), mul(X1, 1.181)))))), add(mul(mul(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), add(X1, -0.537)))), X1))
+======================================================================
+add(sub(add(add(mul(mul(X1, 1.181), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), -1.862), mul(-1.480, X0)), sub(0.858, sub(sub(X1, X1), add(add(X1, 1.567), add(-0.156, mul(X1, mul(X1, 1.181))))))), add(mul(mul(add(X0, X1), X0), mul(mul(0.006, X1), mul(add(X1, -0.537), add(X1, -0.537)))), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))))
+======================================================================
+add(sub(add(add(mul(mul(X1, 1.181), mul(mul(0.006, X1), mul(add(X1, -0.537), mul(X1, 1.181)))), X1), add(X1, add(X1, -0.537))), sub(X1, sub(add(mul(-1.481, X0), sub(-0.448, mul(X1, 1.181))), add(add(X1, 1.567), mul(add(X1, -0.537), mul(X1, 1.181)))))), add(mul(mul(add(X0, X1), X0), mul(mul(0.006, X1), mul(X1, add(X1, -0.537)))), X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest5.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      4.78439e+38       31          283.231          338.745      1.63m
+   1    46.59      5.98463e+09       45          277.219          368.684      5.75m
+   2    52.60       1.7235e+09       41          260.574          236.494      5.35m
+   3    48.62       6.9031e+14       35           235.54          404.453      4.89m
+   4    43.15      7.85248e+09       35          199.419          274.225      4.37m
+   5    40.19       2.8899e+15       67          194.445          202.846      3.86m
+   6    39.36      5.49899e+14       35          131.284          132.278      3.46m
+   7    42.17      2.39114e+08       71          113.635          124.103      3.07m
+   8    46.39      7.09671e+07       57          94.1317           94.178      2.68m
+   9    52.83      2.27256e+18       69          85.4231          97.7177      2.37m
+  10    51.31      1.68315e+12      121          80.6504          107.643      2.08m
+  11    58.75      6.17213e+08      111          74.3161          63.5178      1.57m
+  12    59.90      4.57695e+24       95          57.2818           59.829      1.05m
+  13    61.23      3.22245e+12       81          46.9641          58.4184     32.84s
+  14    72.29      1.49126e+10       87          45.7733          59.5901      0.00s
+printing the best individuals for the last 10 generations:
+sub(sub(mul(add(sub(sub(sub(mul(0.012, add(mul(sub(X1, add(X1, mul(-1.675, X0))), mul(sub(X1, mul(sub(-1.823, X1), mul(X1, 0.791))), mul(mul(mul(X0, 1.446), add(X0, X1)), sub(add(X0, 0.154), X0)))), sub(add(add(add(X0, X0), mul(-1.619, add(X0, X0))), sub(add(mul(X1, -1.679), X0), mul(add(X1, 0.602), sub(X1, 1.294)))), sub(X0, X1)))), add(0.050, -1.348)), add(sub(sub(sub(add(-1.164, sub(X1, mul(add(-1.002, X0), mul(-0.867, X0)))), mul(-0.018, X1)), add(sub(-1.098, 1.515), mul(X0, X1))), mul(-0.018, X1)), mul(1.114, X0))), add(-0.018, X1)), mul(add(X0, add(mul(X1, X1), sub(X1, X1))), mul(0.012, X1))), X1), -1.334), X1)
+======================================================================
+sub(sub(mul(add(sub(sub(sub(mul(0.012, add(mul(sub(X1, add(X1, mul(-1.675, X0))), mul(sub(X1, mul(sub(-1.823, X1), mul(X1, 0.791))), mul(mul(mul(X0, 1.446), add(X0, X1)), sub(add(X0, 0.154), X0)))), sub(add(add(add(X0, X0), mul(-1.619, add(X0, X0))), mul(X1, -0.222)), sub(X0, X1)))), add(0.050, -1.348)), add(sub(sub(sub(add(-1.164, sub(X1, mul(add(-1.002, X0), mul(-0.867, X0)))), mul(-0.018, X1)), add(sub(-1.098, 1.515), mul(X0, X1))), mul(-0.018, X1)), mul(1.114, X0))), add(-0.018, X1)), mul(add(X0, add(mul(X1, X1), sub(X1, X1))), mul(0.012, X1))), X1), -1.334), X1)
+======================================================================
+sub(add(mul(add(sub(sub(add(X0, sub(sub(sub(sub(sub(add(X0, mul(X0, X1)), add(0.050, -1.348)), add(sub(-1.098, 1.515), sub(add(1.882, add(X0, X1)), add(mul(1.081, X0), add(sub(-1.098, 1.515), mul(X0, X1)))))), add(0.050, -1.348)), add(sub(-1.098, 1.515), mul(1.114, X0))), mul(add(sub(-0.473, X0), add(0.478, X0)), mul(mul(-0.592, sub(X1, 0.495)), mul(X1, X1))))), add(mul(-1.710, X0), mul(1.114, X0))), add(X1, X1)), mul(add(X0, add(mul(X1, X1), sub(X1, X1))), mul(0.012, X1))), X1), -1.334), X1)
+======================================================================
+sub(add(mul(add(sub(sub(add(X0, sub(sub(sub(sub(mul(X0, X1), add(sub(-1.098, 1.515), sub(add(1.882, add(X0, X1)), add(mul(1.081, X0), mul(X0, X1))))), add(0.050, -1.348)), mul(1.114, X0)), mul(add(sub(-0.473, X0), add(0.478, X0)), mul(mul(-0.592, sub(X1, 0.495)), mul(X1, X1))))), add(mul(-1.710, X0), mul(1.114, X0))), add(X1, X1)), mul(add(X0, add(mul(X1, X1), sub(X1, X1))), mul(0.012, X1))), X1), -1.334), X1)
+======================================================================
+sub(add(mul(add(sub(sub(add(X0, sub(sub(sub(sub(add(X0, mul(X0, X1)), add(sub(-1.098, 1.515), sub(add(1.882, add(X0, X1)), add(mul(1.081, X0), add(sub(-1.098, 1.515), mul(X0, X1)))))), add(0.050, -1.348)), add(sub(-1.098, 1.515), mul(1.114, X0))), mul(add(sub(-0.473, X0), add(0.478, X0)), mul(mul(-0.592, sub(X1, 0.495)), mul(X1, X1))))), mul(1.114, X0)), add(X1, X1)), mul(add(X0, add(mul(X1, X1), sub(X1, X1))), mul(0.012, X1))), X1), -1.334), X1)
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest6.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -20.0~20.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      4.78439e+38       31          283.231          338.745      1.61m
+   1    48.85      7.44021e+17       41          278.841          386.035      5.95m
+   2    50.78      2.37328e+19      189          258.028          237.204      5.30m
+   3    43.14      8.44985e+13      173          247.459          273.355      4.84m
+   4    45.64      9.63904e+09      187          225.792          217.719      4.35m
+   5   134.87      1.14748e+10      191          221.527          205.316      4.42m
+   6   183.81      3.27751e+06      183          120.345          120.421      6.11m
+   7   186.48      5.79987e+08      171          115.836          128.713      6.26m
+   8   182.93      7.33082e+10      197          93.8065           62.914      5.44m
+   9   179.63      1.18247e+11      129          82.7154          91.0486      4.40m
+  10   176.70      3.06756e+11      153           74.196          101.706      3.45m
+  11   177.00      3.79734e+24      171          69.6597          121.094      2.63m
+  12   149.85      3.57489e+06      149          63.8537          141.561      1.74m
+  13   145.91      5.93419e+08      151          64.2514          110.871     47.45s
+  14   147.17      4.31853e+09      171          63.3225          114.377      0.00s
+printing the best individuals for the last 10 generations:
+add(sub(mul(add(-0.958, mul(mul(mul(add(X0, X0), sub(X0, X0)), mul(add(X1, X0), mul(X1, X0))), add(add(add(1.140, X1), add(X0, X0)), X1))), -1.089), add(X1, add(1.140, X1))), add(add(sub(add(mul(sub(mul(-1.533, X0), sub(mul(X0, X1), 0.355)), add(add(add(1.140, X1), add(-1.926, sub(-1.735, X1))), X1)), sub(mul(sub(X0, 1.292), mul(X1, -1.545)), mul(add(add(X1, X1), 0.786), add(sub(X0, X0), add(X0, X1))))), sub(add(1.005, add(mul(add(X0, X0), add(X0, X0)), sub(-0.554, mul(X0, X1)))), add(mul(X1, -1.913), add(X1, X0)))), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, 1.275))), mul(mul(sub(X1, X0), X0), -0.273))), X1)), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, -0.913))), mul(add(sub(X1, X0), mul(X0, X0)), -0.273))), X1)))
+======================================================================
+add(sub(mul(add(-0.958, X0), -1.089), add(X1, add(sub(add(X0, sub(add(X0, X1), add(X0, X0))), mul(sub(sub(X0, X0), sub(0.918, 1.248)), add(add(X1, -1.283), add(X1, X1)))), add(1.916, mul(mul(sub(-1.364, X1), X0), mul(X0, sub(0.025, -1.476))))))), add(add(sub(add(mul(sub(mul(-1.533, X0), sub(mul(X0, X1), 0.355)), add(add(add(1.140, X1), add(X0, sub(-1.735, X1))), X1)), sub(mul(sub(X0, 1.292), mul(X1, -1.545)), mul(add(add(X1, X1), 0.786), add(sub(X0, X0), add(X0, X1))))), sub(add(1.005, add(mul(add(X0, X0), add(X0, X0)), sub(-0.554, mul(X0, X1)))), add(add(X1, -1.913), add(X1, X0)))), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(mul(add(1.354, -1.449), sub(-0.036, X0)), 1.275))), mul(mul(sub(X1, X0), X0), -0.273))), X1)), sub(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, 1.275))), mul(add(sub(X1, X0), add(X0, X0)), -0.273))), X1)))
+======================================================================
+add(sub(add(1.140, X1), add(X1, add(1.140, X1))), add(add(sub(add(mul(sub(mul(-1.533, X0), sub(mul(X0, X1), 0.355)), add(add(add(1.140, X1), add(X0, sub(-1.735, X1))), X1)), sub(mul(sub(X0, 1.292), mul(X0, X1)), mul(add(add(X1, X1), 0.786), add(sub(X0, X0), add(X0, X1))))), sub(add(1.005, add(mul(add(X0, X0), add(X0, X0)), sub(-0.554, mul(sub(mul(add(-0.958, -0.425), -1.089), add(X1, add(-1.668, X1))), sub(sub(X1, add(X0, 1.152)), add(sub(-0.936, X1), add(X1, X1))))))), add(add(X1, -1.913), add(X1, X0)))), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, 1.275))), mul(mul(sub(X1, X0), X0), -0.273))), X1)), sub(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, 1.275))), mul(add(add(X0, X1), mul(X0, X0)), -0.273))), X1)))
+======================================================================
+add(sub(mul(add(-0.958, mul(mul(mul(add(X0, X0), sub(X0, X0)), mul(add(X1, X0), mul(X1, X0))), add(add(add(1.140, X1), add(X0, X0)), X1))), -1.089), add(X1, add(1.140, X1))), add(add(sub(add(mul(sub(mul(-1.533, X0), sub(mul(X0, X1), 0.355)), add(add(sub(mul(X0, X1), 0.355), add(-1.926, sub(-1.735, X1))), X1)), sub(mul(sub(X0, 1.292), mul(X1, -1.545)), mul(add(X1, X1), add(sub(X0, X0), add(X0, X1))))), sub(add(1.005, add(mul(add(X0, X0), add(X0, X0)), sub(-0.554, mul(X0, X1)))), add(mul(X1, -1.913), add(X1, X0)))), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, 1.275))), mul(mul(X0, X1), -0.273))), X1)), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, -0.913))), mul(add(sub(X1, X0), mul(X0, X0)), -0.273))), X1)))
+======================================================================
+add(sub(mul(add(-0.958, mul(mul(mul(add(X0, X0), sub(X0, X0)), mul(add(X1, X0), mul(X1, X0))), add(add(add(1.140, X1), add(X0, X0)), X1))), -1.089), add(X1, add(1.140, X1))), add(add(sub(add(mul(sub(mul(-1.533, X0), sub(mul(X0, X1), 0.355)), add(add(sub(mul(X0, X1), 0.355), add(-1.926, sub(-1.735, X1))), X1)), sub(mul(sub(X0, 1.292), mul(X1, -1.545)), mul(add(add(X1, X1), 0.786), add(sub(X0, X0), add(X0, X1))))), sub(add(1.005, add(mul(sub(-0.554, mul(X0, X1)), add(X0, X0)), sub(add(add(add(X0, X0), add(X0, X0)), sub(-0.554, mul(X0, X1))), mul(X0, X1)))), add(mul(X1, -1.913), add(add(X0, X1), 0.786)))), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, 1.275))), mul(mul(sub(X1, X0), X0), -0.273))), X1)), add(mul(mul(X1, X1), mul(mul(0.023, add(mul(-1.737, X1), mul(X0, -0.913))), mul(add(sub(X1, X0), mul(X0, X0)), -0.273))), X1)))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest7.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -15.0~15.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14       8.1808e+28       33          94.0355          117.114     54.84s
+   1    28.81      9.09498e+11       25          90.1853          119.582      2.80m
+   2    29.81      1.63236e+07       49          89.7978          110.726      2.20m
+   3    26.45      2.40374e+06       31          88.4395          125.136      2.01m
+   4    28.10      3.74736e+07       45          88.1462          130.794      1.79m
+   5    29.85      2.10747e+06       95          86.5415          109.895      1.71m
+   6    29.75          6849.25       59          85.2592           143.81      1.59m
+   7    30.36          43827.9       89          84.9778          88.2774      1.43m
+   8    30.52      2.65195e+06       39          84.1906          137.455      1.27m
+   9    32.85           276196       89          81.1684          94.3573      1.08m
+  10    41.84      4.82229e+12       97          78.1518          78.7155     55.06s
+  11    69.47           562189       95          76.2868          89.1832     48.62s
+  12    89.32          6228.11       85          74.5686          96.1881     35.34s
+  13    93.19      7.94256e+11       85          72.9395          95.9752     19.85s
+  14    89.86      6.81239e+10      107          72.2094          101.059      0.00s
+printing the best individuals for the last 10 generations:
+mul(1.939, add(mul(mul(X0, sub(X1, X1)), add(sub(X1, 0.214), add(0.123, -1.626))), sub(sub(mul(add(sub(0.467, -1.948), mul(-1.258, -1.626)), mul(add(sub(sub(add(-1.002, -1.326), X0), add(0.603, sub(X0, X0))), -1.364), add(0.887, X0))), add(add(add(-0.332, X0), mul(add(sub(X1, X1), sub(-1.604, X0)), -1.081)), sub(add(sub(X0, -1.169), 1.589), mul(X0, add(X0, -1.578))))), sub(mul(mul(X1, mul(X1, -1.119)), sub(add(X0, -0.402), add(-0.312, X0))), add(mul(add(X1, -1.738), mul(X0, X1)), sub(add(0.024, X1), sub(X1, X0)))))))
+======================================================================
+mul(1.939, add(mul(mul(sub(X0, X1), sub(X1, X1)), add(sub(X1, 0.214), mul(mul(X1, X1), add(X0, -0.418)))), sub(sub(mul(add(sub(0.467, -1.948), mul(-1.258, -1.626)), mul(sub(-1.826, X0), add(sub(X0, -1.169), 1.589))), add(add(add(-0.332, X0), mul(add(sub(X1, X1), sub(-1.604, X0)), -1.081)), sub(add(sub(X0, -1.169), 1.589), mul(X0, add(X0, -1.578))))), sub(mul(mul(X1, mul(X1, -1.119)), sub(add(X0, -0.402), add(-0.312, X0))), add(mul(add(X1, -1.738), mul(X0, X1)), sub(add(0.024, X1), sub(X1, X0)))))))
+======================================================================
+mul(1.939, add(mul(mul(X0, sub(X1, X1)), add(sub(X1, 0.214), mul(add(-0.178, -1.576), X0))), sub(sub(mul(add(sub(0.467, -1.948), mul(-1.258, -1.626)), mul(sub(-1.826, mul(-1.258, -1.626)), add(0.887, X0))), add(add(add(-0.332, X0), add(1.990, 1.519)), sub(add(sub(X0, -1.169), 1.589), mul(X0, add(X0, -1.578))))), sub(mul(mul(X1, mul(X1, -1.119)), sub(add(X0, -0.402), add(-0.312, X0))), add(mul(add(X1, -1.738), mul(X0, X1)), sub(add(0.024, X1), sub(X0, -0.312)))))))
+======================================================================
+mul(1.939, add(mul(mul(X0, sub(X1, X1)), sub(X1, X1)), sub(sub(mul(add(sub(0.467, -1.948), mul(-1.258, -1.626)), mul(sub(add(sub(-1.556, X1), add(X1, -0.599)), 0.933), add(1.366, 1.045))), add(add(add(-0.332, X0), mul(add(sub(X1, X1), sub(-1.604, X0)), -1.081)), sub(add(X0, 1.589), mul(X0, add(X0, -1.578))))), sub(mul(mul(X1, mul(X1, -1.119)), sub(add(X0, -0.402), add(-0.312, X0))), add(mul(add(X1, -1.738), mul(X0, X1)), sub(add(0.024, X1), 1.163))))))
+======================================================================
+mul(1.939, add(mul(mul(add(X0, -1.578), sub(X1, X1)), -0.486), add(add(mul(sub(mul(sub(add(sub(-1.556, X1), add(X1, -0.599)), 0.933), add(1.366, 1.045)), 0.933), add(1.366, 1.045)), add(-1.604, X0)), add(sub(-1.604, X0), sub(sub(mul(add(sub(0.467, -1.948), mul(-1.258, -1.626)), mul(sub(-1.826, X0), add(0.887, X0))), add(add(add(-0.332, X0), mul(sub(X1, X0), -1.081)), sub(add(mul(add(-0.178, -1.576), X0), 1.589), mul(X0, 0.467)))), sub(mul(mul(X1, mul(X1, -1.119)), sub(add(X0, -0.402), add(-0.312, X0))), add(mul(add(X1, -1.738), mul(X0, X1)), sub(add(0.024, X1), sub(X1, X0)))))))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest8.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -15.0~15.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14       8.1808e+28       33          94.0355          117.114     48.59s
+   1    31.33      4.98227e+09      115          91.4518          98.7436      2.91m
+   2    27.66      4.30365e+07       25          90.1918          122.947      2.26m
+   3    27.32      1.80389e+10       19          89.0472          130.608      2.08m
+   4    30.59          16696.1       55          88.0006           123.68      1.93m
+   5    31.05      2.24508e+07       35          86.6546           111.49      1.75m
+   6    31.21      1.13686e+06       63          86.0418          121.271      1.61m
+   7    34.27           691251       53          81.2318          123.356      1.41m
+   8    40.01      2.40972e+07       43          82.1942          123.039      1.30m
+   9    43.23      8.59154e+08       65          80.4126          113.092      1.10m
+  10    43.88      4.99152e+09       45          77.5925          104.124     55.49s
+  11    44.64      6.65404e+12       57          75.5592          112.841     43.58s
+  12    45.19          12829.6       51           74.292          89.6046     30.28s
+  13    45.26      1.00574e+06       53          72.9031          97.6159     15.58s
+  14    45.06      5.07773e+08       47          73.0541          99.1963      0.00s
+printing the best individuals for the last 10 generations:
+add(add(mul(sub(sub(0.467, -1.948), mul(X0, -1.626)), mul(sub(-1.826, X0), mul(-1.931, -1.874))), mul(mul(X1, X1), add(X0, -0.418))), add(mul(sub(sub(0.467, -1.948), mul(X0, -1.626)), mul(sub(-1.826, X0), add(0.887, X0))), mul(mul(X1, X1), X0)))
+======================================================================
+add(add(mul(sub(sub(0.467, -1.948), mul(X0, -1.626)), mul(sub(-1.826, X0), add(0.887, X0))), mul(mul(X1, X1), add(X0, -0.418))), add(mul(sub(sub(sub(0.467, -1.948), sub(-1.604, sub(sub(sub(0.985, X1), sub(-1.754, X1)), -1.948))), mul(X0, -1.626)), mul(sub(-1.826, X0), add(0.887, X0))), mul(mul(X1, X1), X0)))
+======================================================================
+add(add(mul(add(X1, X0), mul(X0, sub(X1, X0))), X0), add(mul(sub(sub(sub(sub(0.985, X1), sub(-1.754, X1)), -1.948), sub(-1.549, -0.508)), mul(sub(-1.826, X0), sub(sub(sub(0.467, -1.948), sub(-1.549, -0.508)), sub(-1.826, X0)))), mul(add(X1, X0), mul(sub(X0, 0.280), X1))))
+======================================================================
+add(add(mul(add(X1, X0), mul(X0, sub(X1, X0))), X0), add(mul(sub(sub(sub(sub(0.985, X1), sub(-1.754, X1)), -1.948), sub(-1.549, -0.508)), mul(sub(-1.826, X0), sub(sub(sub(0.467, -1.948), sub(-1.549, -0.508)), sub(-1.826, sub(X0, 0.280))))), mul(add(X1, X0), mul(sub(X0, 0.280), X1))))
+======================================================================
+add(add(mul(add(X1, X0), mul(X0, sub(X1, X0))), X0), add(mul(sub(sub(sub(sub(0.985, X1), sub(-1.754, X1)), -1.948), sub(-1.549, -0.508)), mul(sub(-1.826, X0), sub(sub(0.467, -1.948), sub(-1.826, X0)))), mul(add(X1, X0), mul(sub(X0, 0.280), X1))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest9.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -15.0~15.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50       1.9395e+34       27          93.9797          119.296      1.63m
+   1    29.16      3.12012e+08       75          91.5731          116.893      5.71m
+   2    30.33       3.1308e+08       37           90.508          138.887      4.54m
+   3    27.71      9.27715e+12       23          90.0656          120.948      4.23m
+   4    27.42       7.2294e+09       51          89.3987          129.378      3.69m
+   5    27.23      1.61306e+14       53          87.2272          124.565      3.46m
+   6    26.15      1.20976e+14       25          88.0533          132.783      3.11m
+   7    25.05      1.08684e+08       23          88.0728          131.343      2.79m
+   8    23.91      4.24168e+06       53          88.9307          106.782      2.45m
+   9    23.38      1.30347e+18       63          87.4983          114.253      2.11m
+  10    23.44      3.18764e+09       25          88.6624          129.013      1.68m
+  11    23.46      4.50708e+06       37          86.8699          128.261      1.27m
+  12    24.22      1.29193e+20       39          85.7151          137.318     51.21s
+  13    26.11      1.28113e+12       53           86.069          124.305     26.08s
+  14    28.99      8.35402e+06       57          86.1605          88.0236      0.00s
+printing the best individuals for the last 10 generations:
+mul(add(mul(X0, -0.200), add(mul(mul(X1, 0.914), X1), sub(X0, mul(1.141, 0.275)))), add(add(sub(X0, 0.674), mul(X0, -0.200)), X0))
+======================================================================
+sub(sub(mul(-1.689, X0), X0), sub(add(mul(X0, X0), mul(1.440, 1.675)), mul(add(mul(X0, mul(X0, -0.594)), add(mul(X1, X1), mul(-0.459, X0))), add(add(sub(X0, 0.674), mul(X0, -0.200)), X0))))
+======================================================================
+sub(sub(add(X0, -1.208), sub(X0, 0.674)), sub(add(mul(X0, X0), mul(1.440, 1.675)), mul(add(mul(X0, sub(X1, X0)), add(mul(X1, X1), mul(-0.459, X0))), add(add(sub(X0, 0.674), mul(X0, -0.200)), X0))))
+======================================================================
+add(sub(sub(-1.915, 0.370), add(sub(1.927, -0.933), sub(mul(X0, X0), X0))), add(add(mul(mul(-1.679, X0), add(sub(sub(X0, 0.058), -1.374), mul(X0, X1))), add(add(sub(X0, 0.471), sub(-1.604, X0)), mul(mul(X1, X1), add(X0, -0.418)))), mul(sub(X0, add(-1.814, 1.988)), mul(X1, X1))))
+======================================================================
+add(sub(add(add(sub(X0, 0.674), mul(add(-1.448, mul(X0, -1.292)), add(sub(1.927, -0.933), mul(1.440, 1.675)))), X0), add(sub(1.927, -0.933), X0)), add(add(mul(-1.679, add(1.311, X0)), add(add(sub(X1, X1), sub(-1.604, X0)), mul(mul(X1, X1), add(X0, -0.418)))), mul(sub(X0, add(-1.814, 1.988)), mul(X1, X1))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest10.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~1.0      -15.0~15.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50       1.9395e+34       27          93.9797          119.296      1.61m
+   1    31.41      7.23751e+15       63          87.8584          106.694      5.66m
+   2    26.79      1.66108e+18       61          88.3129          103.262      4.55m
+   3    26.92      2.44337e+13       45          84.2859          90.1075      4.19m
+   4    49.46      5.23518e+08       55          82.3033          91.3919      3.82m
+   5    53.18      1.38478e+08       45          76.7634          88.5784      4.20m
+   6    47.07      8.04637e+07       59          76.0156          62.3074      3.65m
+   7    43.56      2.06879e+08       83          64.4193          75.2939      3.11m
+   8    48.65      2.36859e+08       83          64.2856          76.3154      2.68m
+   9    51.04      1.41123e+10       87           62.872          89.5051      2.31m
+  10    61.48      1.69611e+12       83          62.5066          88.6232      1.95m
+  11    59.33      9.46383e+22       57          60.3612           50.638      1.53m
+  12    54.73      3.33893e+06       69          54.3811          64.4043      1.02m
+  13    51.90      1.42363e+10      111          51.8307          61.1671     30.17s
+  14    53.66       1.5652e+07       99           34.126          40.5986      0.00s
+printing the best individuals for the last 10 generations:
+add(-0.451, add(sub(sub(mul(mul(mul(add(X1, X1), mul(0.007, X0)), add(mul(mul(mul(add(X1, X1), mul(0.007, X0)), mul(mul(X0, X1), sub(X1, X0))), sub(mul(X1, 1.483), mul(X0, X1))), add(add(0.411, -1.310), add(-0.706, X0)))), add(sub(mul(X1, 1.483), mul(X0, X1)), mul(sub(X1, X0), sub(X0, X0)))), 1.699), add(mul(X0, 1.948), mul(X1, -0.806))), sub(mul(mul(X1, -1.246), mul(X0, 0.188)), mul(mul(-0.672, -0.437), mul(X1, X1)))))
+======================================================================
+add(-0.451, add(sub(mul(add(-1.741, X1), mul(mul(mul(mul(add(X1, X1), mul(0.007, 1.074)), mul(X1, sub(mul(X1, 1.483), mul(X0, X1)))), mul(0.007, X0)), mul(sub(X1, X0), X1))), add(mul(X0, 1.948), mul(X1, X1))), mul(mul(sub(X1, X0), mul(X0, 0.188)), mul(mul(-0.672, -0.437), mul(X1, X1)))))
+======================================================================
+add(sub(mul(mul(X1, X1), mul(-1.205, 0.188)), X0), add(sub(mul(add(-1.741, X1), mul(mul(add(X1, X1), mul(0.007, 0.772)), mul(add(X0, X1), mul(X1, 1.225)))), add(mul(X0, sub(0.188, mul(mul(-0.672, -0.437), mul(X1, X1)))), mul(-0.546, -0.806))), sub(sub(sub(add(-1.648, X0), mul(X1, X1)), sub(sub(-0.810, X1), add(-0.635, X1))), mul(mul(-0.672, -1.037), mul(X1, X1)))))
+======================================================================
+add(sub(mul(mul(X1, X1), mul(-1.205, 0.188)), X0), add(sub(mul(add(-1.741, X1), mul(mul(add(X1, X1), mul(0.007, 0.772)), mul(add(X0, X1), mul(X1, 1.225)))), add(mul(X0, X0), sub(mul(X1, 1.483), add(sub(mul(add(-1.741, X1), mul(mul(mul(mul(add(X1, X1), mul(0.007, X0)), mul(X1, sub(mul(X1, 1.483), mul(X0, X1)))), mul(0.007, X0)), mul(X1, X1))), -0.451), sub(mul(add(0.762, mul(X1, -0.725)), mul(X0, 0.188)), mul(mul(-0.672, -0.437), mul(X1, X1))))))), sub(sub(sub(add(-1.648, X0), mul(X1, X1)), sub(sub(-0.810, X1), add(-0.635, X1))), mul(mul(-0.672, -1.037), mul(X1, X1)))))
+======================================================================
+add(sub(X1, X0), add(sub(mul(add(-1.741, X1), mul(mul(mul(X1, 1.483), mul(0.007, 0.772)), mul(add(X0, X1), mul(X1, 1.225)))), add(mul(X0, X0), mul(-0.546, -0.806))), sub(sub(sub(add(-1.648, X0), mul(X1, X1)), mul(add(sub(mul(X1, mul(mul(mul(mul(add(X1, X1), mul(0.007, X0)), mul(X1, sub(mul(X1, 1.483), mul(X0, X1)))), mul(0.007, X0)), mul(sub(X1, X0), X1))), mul(X0, 1.948)), sub(mul(sub(X1, X0), mul(X0, 0.188)), mul(mul(-0.672, -0.437), mul(X1, X1)))), -0.806)), mul(mul(-0.672, -1.037), mul(X1, X1)))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest11.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      1.59783e+42      109          279.186          288.598      1.11m
+   1    41.91      1.56634e+20       19          255.471          275.941      3.13m
+   2    46.50      2.37036e+10       55          254.266          252.392      2.53m
+   3    55.79      2.74642e+11       25          252.236          261.565      2.43m
+   4    44.94       1.9648e+12       25          248.542           286.95      2.24m
+   5    32.19       1.2774e+11       69          246.434           296.08      1.92m
+   6    38.06      1.75304e+07       47          244.482          291.622      1.62m
+   7    43.63      4.33744e+09       45          243.848          301.524      1.55m
+   8    44.28      1.64586e+09       49          241.715          292.466      1.41m
+   9    45.87       1.4772e+15       53          242.285           290.71      1.22m
+  10    46.40      3.80754e+19       53          240.736          307.458      1.02m
+  11    47.55      8.97815e+06       53          240.841          293.519     46.31s
+  12    48.55      7.64198e+08       49          240.579          299.558     31.46s
+  13    50.50      1.92704e+15       65          239.395          290.957     16.05s
+  14    52.63      5.38376e+16       67          239.942          295.287      0.00s
+printing the best individuals for the last 10 generations:
+sub(X1, add(add(sub(add(-1.734, X0), sub(-1.038, sub(X0, X0))), sub(mul(add(add(X1, X0), add(X0, add(1.322, X0))), X0), sub(mul(add(X1, 1.993), mul(X1, X0)), mul(X0, add(1.322, X0))))), mul(sub(add(X0, 1.402), mul(1.005, X1)), mul(add(1.070, X0), add(X1, X0)))))
+======================================================================
+sub(X1, add(add(sub(add(add(1.638, X0), add(X0, 1.402)), X1), sub(mul(add(add(X1, X0), add(X0, add(1.322, X0))), X0), sub(mul(add(X1, 1.993), mul(X1, X0)), mul(X0, add(1.322, X0))))), mul(sub(add(X0, 1.402), mul(1.005, X1)), mul(add(1.070, X0), add(X1, X0)))))
+======================================================================
+sub(X1, add(add(sub(X0, X1), sub(mul(add(add(X1, X0), add(X0, add(sub(X0, -1.725), X0))), X0), sub(mul(add(X1, 1.993), mul(X1, X0)), mul(X0, add(1.322, X0))))), mul(sub(add(X0, 1.402), mul(1.005, X1)), mul(add(1.070, X0), add(X1, X0)))))
+======================================================================
+sub(X1, add(add(add(add(mul(sub(1.708, -1.403), mul(-1.784, -1.910)), sub(mul(0.604, 1.723), add(-1.956, -1.505))), add(X0, sub(add(1.322, X0), X1))), sub(mul(add(add(X1, X0), mul(X0, 0.682)), X0), sub(mul(add(X1, 1.993), mul(X1, X0)), mul(X0, add(X0, X0))))), mul(sub(add(X0, 1.402), mul(1.005, X1)), mul(add(1.070, X0), add(X1, X0)))))
+======================================================================
+sub(X1, add(add(add(sub(mul(sub(1.708, -1.403), mul(-1.784, -1.910)), sub(mul(0.604, -0.793), sub(X0, 1.663))), add(X0, sub(add(X0, 1.402), mul(1.005, X1)))), sub(mul(add(add(X1, X0), mul(X0, 0.682)), X0), sub(mul(add(X1, 1.993), mul(X1, X0)), mul(X0, add(1.322, X0))))), mul(sub(add(X0, 1.402), mul(1.005, X1)), mul(add(1.070, X0), add(X1, X0)))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest12.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      1.59783e+42      109          279.186          288.598     57.03s
+   1    44.69       3.3614e+14       19          259.607           257.84      2.91m
+   2    53.18      3.08013e+09       19          255.571          263.395      2.58m
+   3    60.81      9.72071e+12      133          252.051          279.197      2.52m
+   4    31.35      1.61983e+06      135          248.061          279.919      2.29m
+   5    26.86      4.57471e+09       95          245.307          298.691      1.74m
+   6    40.31      1.98883e+13       53          243.526          293.553      1.55m
+   7    47.72      2.58476e+07      115           240.86          299.802      1.51m
+   8    51.74      1.90132e+10      123          240.629          282.245      1.38m
+   9    53.82      5.06716e+12      117          238.639          289.099      1.24m
+  10    56.95      7.48204e+14       95          238.171          303.559      1.10m
+  11    58.62      5.96678e+14      107          236.362          292.888     48.34s
+  12    55.51           107695       97          236.169           300.73     33.05s
+  13    49.07      1.19282e+09       45          233.406          273.708     16.31s
+  14    49.52      2.09222e+12      121          231.667          254.307      0.00s
+printing the best individuals for the last 10 generations:
+sub(add(add(sub(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, X0), sub(add(X0, add(1.322, X0)), add(sub(X1, X0), mul(-0.023, 1.246))))), add(X0, X0)), mul(sub(-1.681, X0), add(X0, X0))), add(X0, add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))), add(add(mul(1.996, -0.726), add(add(1.322, X0), add(X0, X1))), add(sub(mul(X0, 1.015), X1), sub(add(X1, 0.192), sub(add(sub(sub(sub(0.362, 1.858), add(X0, X0)), add(X0, X0)), sub(X1, X0)), X1)))))
+======================================================================
+add(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, add(X0, add(X0, add(1.322, X0)))), sub(add(X0, add(X0, add(1.322, X0))), add(add(sub(X1, X0), sub(mul(-1.254, add(X0, add(X0, add(1.322, X0)))), sub(add(X0, add(X0, add(1.322, X0))), add(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, X0), sub(add(add(add(X0, add(1.322, X0)), X1), add(-0.819, X1)), add(sub(X1, X0), sub(sub(0.362, 1.858), add(X0, X0)))))), mul(-0.023, 1.246))))), mul(-0.023, 1.246))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, X0), sub(add(add(X0, add(1.322, X0)), add(X0, add(1.322, X0))), add(sub(X1, X0), mul(-0.023, 1.246))))), sub(add(X0, add(X0, add(1.322, X0))), mul(-1.711, X0)))), add(add(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, X0), sub(add(add(add(0.853, X0), X1), add(-0.819, X1)), add(sub(X1, X0), mul(-0.023, 1.246))))), mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1)))), X1))
+======================================================================
+add(mul(sub(-1.681, X0), add(X0, X0)), add(mul(add(X0, add(1.322, X0)), add(mul(X1, X1), add(mul(sub(1.706, -1.735), sub(-1.681, X0)), sub(-1.625, sub(X0, X0))))), add(sub(sub(0.362, 1.858), add(X0, X0)), sub(X0, add(X0, X0)))))
+======================================================================
+add(add(sub(sub(0.362, 1.858), add(X0, X0)), add(mul(sub(-1.681, X0), add(X0, X0)), sub(add(sub(sub(0.362, 1.858), add(X0, add(1.322, X0))), sub(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, X0), sub(add(add(0.207, X1), add(X0, add(1.322, X0))), add(sub(X1, X0), mul(-1.254, X0))))), sub(add(X0, add(X0, add(1.322, X0))), sub(sub(0.362, 1.858), add(X0, X0))))), sub(add(add(0.207, X1), add(add(X0, add(1.322, X0)), add(X0, add(1.322, X0)))), add(sub(X1, X0), mul(-0.023, 1.246)))))), add(mul(add(X0, add(1.322, X0)), add(mul(X1, X1), add(mul(sub(1.706, -1.735), -1.735), sub(sub(-1.681, X0), sub(X0, X0))))), X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest13.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50       3.8981e+50      109          279.186          288.598      2.24m
+   1    42.37      3.97914e+11      109          256.914          267.696      5.83m
+   2    48.02      1.43133e+11      103          253.507          268.972      5.16m
+   3    57.67      5.27803e+20       33          249.221          297.762      4.90m
+   4    68.66      1.04997e+14      113          249.191           294.84      4.83m
+   5    68.60      4.06988e+20      157          246.896          303.837      4.85m
+   6    52.07      1.58235e+18       55          244.475           300.47      4.19m
+   7    41.15      2.30015e+10       61          244.969          300.256      3.34m
+   8    39.99      5.26252e+09       67          244.265          258.777      2.79m
+   9    41.70      5.03591e+24       55          242.023          253.792      2.37m
+  10    44.56      4.43561e+11       95          239.403          287.209      2.04m
+  11    48.46      7.19529e+09       63          239.224          286.736      1.59m
+  12    53.66      4.93879e+25       73          237.088          297.854      1.10m
+  13    57.05      3.51419e+15       65          232.995          266.068     34.08s
+  14    56.76      2.31258e+09       65          232.488          269.171      0.00s
+printing the best individuals for the last 10 generations:
+add(add(add(add(add(-1.002, X0), add(add(add(add(-1.002, X0), mul(X0, X0)), mul(add(add(-0.497, mul(sub(mul(X0, X0), mul(-1.942, X1)), 0.117)), add(0.017, -1.786)), mul(X0, add(X0, X0)))), mul(sub(sub(-0.226, X0), add(X1, X0)), add(X0, X0)))), mul(add(add(-0.497, mul(sub(mul(X0, X0), mul(-1.942, X1)), 0.117)), add(0.017, -1.786)), mul(X0, add(X0, X0)))), mul(sub(sub(-0.226, X0), add(X1, X0)), add(X0, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(add(sub(X0, mul(X0, add(X0, X0))), X1), mul(sub(mul(mul(add(X0, X0), sub(-0.002, -1.958)), sub(X0, sub(-1.052, X0))), add(add(X1, add(X0, X0)), add(add(X0, -1.387), mul(-1.820, X1)))), sub(mul(-0.716, X0), sub(1.935, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), mul(X0, X0)))
+======================================================================
+add(add(sub(0.302, mul(add(0.569, 1.322), mul(1.967, add(1.522, X0)))), mul(sub(X1, X1), add(X0, X0))), add(add(add(add(-1.002, X0), mul(add(add(-0.497, mul(sub(mul(X0, X0), mul(-1.942, X1)), 0.117)), add(0.017, -1.786)), mul(X0, add(X0, X0)))), mul(sub(sub(-0.226, X0), add(X1, X0)), add(X0, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1)))
+======================================================================
+add(mul(sub(mul(mul(add(X0, X0), sub(-0.002, -1.958)), sub(X0, mul(add(add(-0.497, mul(sub(mul(X0, X0), X0), 0.117)), add(0.017, -1.786)), add(X0, X0)))), add(add(X1, add(X0, X0)), add(add(X0, -1.387), mul(-1.820, X1)))), sub(mul(-0.716, X0), sub(1.935, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(add(sub(X0, mul(X0, X0)), X1), mul(sub(X1, mul(sub(X0, -1.445), sub(mul(add(add(-0.497, mul(sub(mul(X0, X0), add(X0, X0)), 0.117)), add(0.017, -1.786)), add(X0, add(X0, add(1.322, X0)))), add(X0, X0)))), sub(mul(-0.716, X0), sub(1.935, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest14.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50       3.8981e+50      109          279.186          288.598      1.87m
+   1    45.07      1.32108e+19       71          262.153          246.036      5.96m
+   2    48.41      2.47325e+25       59          254.803          272.567      5.31m
+   3    64.21      7.73897e+14       55           249.91          309.837      4.99m
+   4    61.09      2.53398e+12       59          244.871          282.216      4.92m
+   5    48.21       4.6669e+13       73          246.403          277.104      4.38m
+   6    47.17      1.16609e+08       53          244.237          287.587      3.64m
+   7    48.31      1.84197e+13       53          244.007          282.425      3.23m
+   8    52.83      3.42303e+16       67          240.883          330.046      2.88m
+   9    56.48      3.30362e+13      123          240.519          276.381      2.51m
+  10    58.56      9.30703e+14       83          239.834          276.583      2.05m
+  11    60.82      3.41162e+30      113          237.346          296.736      1.60m
+  12    64.08      4.81691e+06       97          238.488          290.148      1.10m
+  13    65.35      1.27862e+11       89          237.022          277.824     35.10s
+  14    63.33      2.42354e+12       65          234.707          302.146      0.00s
+printing the best individuals for the last 10 generations:
+add(add(sub(sub(mul(X1, sub(X0, X0)), add(sub(X0, mul(0.878, -1.449)), add(-0.393, X0))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(X0, X0)))), sub(sub(sub(mul(X1, sub(X0, X0)), sub(X0, -0.703)), sub(add(X1, X0), mul(mul(1.587, -1.460), sub(X0, -1.764)))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(add(X0, 1.134), X0))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(mul(mul(add(X0, X0), mul(0.878, mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))))), sub(X1, X1)), sub(sub(sub(sub(sub(sub(mul(X1, sub(X0, X0)), add(add(X0, add(1.322, X0)), sub(X0, 0.705))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(X0, X0)))), add(sub(X0, -0.703), sub(X0, 0.705))), sub(add(X1, X0), mul(mul(1.587, mul(1.587, -1.460)), add(X0, X0)))), add(sub(X0, -0.703), sub(X0, 0.705))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(X0, X0))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(mul(mul(add(X0, X0), mul(0.878, -1.449)), add(add(-0.393, 1.587), sub(X1, X1))), sub(mul(1.587, -1.460), sub(sub(X0, mul(mul(1.587, -1.460), add(X0, X0))), mul(mul(1.587, -1.460), add(add(X0, X0), X0))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), add(sub(X1, X0), sub(sub(mul(X1, sub(X0, X0)), add(sub(X0, -0.703), sub(X0, 0.705))), sub(sub(X1, sub(add(mul(X0, 0.444), sub(0.976, X0)), add(sub(X0, 0.859), sub(1.080, X1)))), mul(mul(1.587, -1.460), add(X0, X0)))))))
+======================================================================
+add(add(sub(sub(mul(X1, sub(X0, X0)), add(sub(X0, mul(0.878, -1.449)), add(-0.393, X0))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(X0, X0)))), sub(sub(sub(mul(X1, sub(X0, X0)), sub(X0, -0.703)), sub(1.587, mul(mul(1.587, -1.460), sub(X0, -1.764)))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(1.800, 1.410))))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(sub(sub(X1, add(sub(X0, mul(0.878, -1.449)), sub(X0, 0.705))), sub(sub(X1, sub(X1, X0)), mul(mul(1.587, -1.460), add(X0, sub(X1, mul(sub(sub(-0.787, 1.285), sub(X1, X1)), add(add(X0, X0), add(X0, sub(add(sub(X0, -1.874), add(1.032, X1)), X1))))))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X0))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest15.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.04348e+42       51          291.569          281.679     59.31s
+   1    42.05       5.5933e+19       19           261.67          324.877      2.92m
+   2    46.71      2.66621e+10       23          260.594          336.603      2.49m
+   3    55.80      3.61096e+10       19          260.536          344.931      2.34m
+   4    51.39      2.22071e+12       19          256.755          350.938      2.25m
+   5    30.72      1.48706e+11       33          252.952          382.223      2.01m
+   6    25.79      4.43585e+07       47          253.104          361.835      1.57m
+   7    25.49       5.6612e+07       33          256.253          333.164      1.39m
+   8    26.00      5.75211e+09       25          255.883           357.73      1.23m
+   9    28.10      2.21879e+17       69          250.313          336.529      1.06m
+  10    32.07      2.49578e+19       47          252.614           329.31     51.87s
+  11    38.81           545835       85          248.639          341.914     41.24s
+  12    45.10      5.03666e+06       65           249.28          351.655     29.47s
+  13    51.23      4.68647e+15       61           247.11           386.97     16.25s
+  14    55.45      3.39119e+16       59          246.691          353.658      0.00s
+printing the best individuals for the last 10 generations:
+sub(add(mul(-1.564, 1.628), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1)), sub(add(add(add(1.322, X0), add(1.322, X0)), add(X0, X0)), add(mul(1.508, -1.817), add(sub(mul(-1.647, X0), add(X0, add(1.322, X0))), X0))))
+======================================================================
+sub(add(mul(-1.564, 1.628), add(add(add(sub(X0, add(add(X1, -0.674), add(X0, X0))), sub(sub(0.362, 1.858), add(X0, X0))), add(add(sub(mul(sub(X0, X0), add(X1, X0)), add(add(X1, -0.674), add(X0, X0))), sub(sub(0.362, add(X0, add(1.947, X1))), add(X0, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))), X1)), sub(add(mul(add(1.322, X0), X0), add(X0, X0)), add(mul(1.508, -1.817), add(-0.700, X0))))
+======================================================================
+sub(add(mul(-1.564, 1.628), add(add(add(sub(mul(sub(X0, X0), add(X1, X0)), add(add(X1, -0.674), add(X0, X0))), sub(sub(0.362, add(X0, add(1.947, X1))), add(X0, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1)), X1)), sub(add(mul(X0, X0), 1.858), add(mul(1.508, -1.817), add(X0, add(0.982, -1.647)))))
+======================================================================
+add(mul(-1.289, X0), sub(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), sub(add(add(X0, sub(add(add(X0, add(1.322, X0)), add(X0, X0)), add(mul(1.508, add(sub(X1, -0.467), add(X0, X0))), add(sub(mul(-1.647, X0), add(X0, add(1.322, X0))), X0)))), add(X0, X0)), add(1.708, add(1.322, X0)))))
+======================================================================
+sub(add(mul(-1.564, 1.628), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1)), sub(add(sub(add(X0, add(1.322, add(X0, add(1.322, X0)))), mul(add(mul(X0, X0), add(X0, X0)), -1.817)), add(X0, X0)), add(mul(-1.053, 0.782), add(sub(mul(-1.647, X0), add(X0, add(1.322, X0))), X0))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest16.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.04348e+42       51          291.569          281.679     47.28s
+   1    44.96      4.14166e+14       19          269.468          276.979      2.87m
+   2    53.20      8.68919e+09       15          263.394          311.317      2.52m
+   3    63.79      1.17407e+13       15          261.096          328.271      2.49m
+   4    29.56      2.40315e+06       27          256.363          342.974      2.29m
+   5    19.42      1.58122e+13       13          257.821          348.795      1.66m
+   6    20.91      7.36067e+11       43          256.348          323.744      1.59m
+   7    25.75      1.01665e+10       41          252.978          355.238      1.29m
+   8    33.07      1.46829e+12       49          251.427          358.601      1.18m
+   9    41.14       5.9838e+12       43          249.606          366.009      1.08m
+  10    45.92      4.14077e+12       65          249.527          351.928     55.60s
+  11    48.59      1.29645e+17       47          249.111           338.88     43.82s
+  12    51.09           118462      107          244.745          351.191     30.64s
+  13    53.07      8.23775e+08       61          247.712          319.339     15.42s
+  14    55.93      7.90139e+10       63          243.633          304.597      0.00s
+printing the best individuals for the last 10 generations:
+add(add(sub(sub(0.362, 1.858), add(X0, add(1.322, X0))), sub(mul(-1.254, X0), sub(add(add(X0, add(1.322, X0)), add(add(X0, add(1.322, X0)), X1)), add(sub(X1, X0), add(mul(add(X0, X1), 0.034), mul(sub(sub(0.362, 1.858), add(X0, X0)), add(X0, X0))))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(add(add(sub(sub(0.362, 1.858), add(X0, X0)), mul(X0, X0)), mul(0.873, -1.771)), mul(add(X0, add(X0, add(1.322, X0))), sub(sub(0.362, 1.858), add(1.322, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(sub(sub(0.362, 1.858), add(X0, X0)), sub(mul(-1.254, X0), sub(add(add(0.207, X1), add(1.322, X0)), add(sub(sub(0.362, 1.858), add(X0, add(1.322, X0))), sub(mul(-1.254, X0), sub(add(add(0.207, X1), add(-0.819, X1)), add(sub(sub(0.362, 1.858), add(X0, add(1.322, X0))), sub(add(sub(sub(sub(X1, X0), 1.858), add(X0, X0)), sub(mul(-1.254, X0), mul(X0, 0.034))), sub(add(add(0.207, X1), add(add(X0, add(1.322, X0)), add(X0, X0))), add(sub(X1, X0), mul(X0, 1.482))))))))))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(add(X0, X0), mul(add(X0, add(X0, add(1.322, X0))), sub(add(mul(X0, add(sub(-1.246, X0), sub(add(X1, add(-0.819, X1)), add(sub(X1, X0), sub(X1, X0))))), mul(add(-0.372, -1.045), add(X0, add(X0, -0.625)))), add(1.322, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(add(add(add(sub(add(0.362, 1.858), X0), -1.837), mul(0.873, -1.771)), mul(add(add(X0, add(1.322, X0)), add(X0, add(1.322, X0))), sub(sub(add(sub(mul(X0, X0), 0.935), mul(add(X1, X1), -0.034)), add(add(add(X0, X0), 1.998), X0)), add(1.322, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest17.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      5.50454e+50       51          291.569          281.679      1.63m
+   1    42.72      6.63756e+11       79          276.978          260.427      5.75m
+   2    48.26      1.31389e+11      111          267.614          324.441      5.01m
+   3    57.58      8.51571e+20       17          261.097          326.829      4.75m
+   4    70.17      1.25355e+14       37          259.709           322.55      4.85m
+   5    65.07      1.38747e+20       47          256.919          333.093      4.63m
+   6    38.55      1.75341e+16      107          255.326          350.047      3.95m
+   7    32.46      6.42335e+11       37          255.073          327.613      3.01m
+   8    32.35      5.75907e+09       35          252.874           342.32      2.57m
+   9    35.49      8.33318e+22       47          250.991          361.181      2.22m
+  10    38.28      5.60013e+11       71          249.803          356.465      1.85m
+  11    39.99      6.04585e+09       79          250.741          360.823      1.46m
+  12    41.19      6.26768e+25       31          249.475           350.39     59.90s
+  13    42.01      4.20833e+15       45          249.869          372.602     31.07s
+  14    41.59      2.55309e+09       37          248.736          338.082      0.00s
+printing the best individuals for the last 10 generations:
+add(sub(mul(mul(sub(X0, X0), add(-1.389, 1.897)), add(0.207, X1)), sub(X0, sub(-1.099, X0))), add(sub(sub(add(add(mul(X0, X0), sub(X1, mul(X0, X0))), sub(sub(mul(0.647, X1), mul(X1, X0)), mul(X0, X0))), sub(add(1.322, X0), mul(X1, X0))), mul(X0, sub(X0, sub(-1.099, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), 0.404)))
+======================================================================
+add(sub(mul(mul(mul(X0, 0.988), add(-1.389, mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(sub(mul(sub(X0, X1), mul(X0, X1)), sub(mul(X1, -0.524), add(X0, X1))), add(add(add(X1, 1.056), sub(0.650, X1)), add(add(X1, X0), sub(X0, X1)))))))), sub(mul(X1, X0), mul(X1, X0))), mul(mul(1.843, X0), add(1.322, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(sub(0.302, mul(add(0.569, add(0.229, X0)), mul(1.967, add(1.522, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), sub(-1.099, X0)))
+======================================================================
+add(add(add(sub(mul(mul(X0, 0.988), add(-1.389, 1.897)), mul(X0, X0)), sub(sub(sub(sub(-0.441, X0), mul(X0, X0)), 0.140), mul(1.727, X1))), mul(0.689, X0)), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(sub(0.302, mul(add(0.569, add(1.322, add(1.322, X0))), mul(1.967, add(1.522, X0)))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), sub(mul(-0.549, 1.726), sub(X0, X1))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest18.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -20.0~20.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      5.50454e+50       51          291.569          281.679      1.87m
+   1    45.21      1.69169e+19       71          269.712          312.263      5.83m
+   2    48.57      3.26827e+25       19          268.604          267.263      5.14m
+   3    65.05      8.57921e+14       19          260.892          329.733      4.86m
+   4    57.40      2.99237e+12       53          257.211          351.193      4.83m
+   5    33.83      6.01576e+13       37          255.898          335.959      4.13m
+   6    27.01      5.83709e+09       49          254.599          314.929      3.21m
+   7    29.02      1.46278e+13       35          255.102          351.665      2.75m
+   8    34.23       1.0548e+14       39          252.208          339.029      2.44m
+   9    39.87      3.67776e+13       49          248.028          359.038      2.16m
+  10    43.05      1.04737e+15       57          251.294          342.301      1.83m
+  11    44.39      4.14081e+31       83          247.001          364.663      1.44m
+  12    45.25      3.65674e+06       57          247.343          297.587     58.67s
+  13    49.96      1.33206e+11       87          244.003          339.275     30.29s
+  14    62.02      2.95025e+12       97          238.483          335.933      0.00s
+printing the best individuals for the last 10 generations:
+add(sub(add(add(add(-1.002, X0), X0), sub(add(add(add(-1.002, X0), mul(X0, X0)), mul(add(X0, X0), sub(mul(add(1.283, -0.508), add(-1.341, X0)), add(X0, add(1.322, X0))))), add(X0, X0))), add(X0, add(1.322, X0))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(sub(1.128, add(add(sub(X1, X0), add(sub(X1, -1.145), X0)), sub(X0, X1))), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), add(add(add(sub(add(mul(0.275, X1), sub(add(add(X0, X1), mul(add(X0, X0), sub(mul(add(1.283, -0.508), add(0.132, X0)), add(X0, add(1.322, X0))))), add(X1, 1.473))), X0), mul(-1.000, X0)), sub(-1.099, X0)), add(sub(sub(X0, X0), add(add(1.322, X0), X0)), add(X0, X0)))))
+======================================================================
+add(sub(add(X0, add(add(add(-1.002, X0), mul(X0, X0)), mul(add(add(X0, add(add(X0, add(1.322, X0)), X0)), X0), sub(mul(add(add(-1.002, X0), -1.783), add(0.132, X0)), add(X0, add(1.322, X0)))))), add(X1, 1.473)), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+add(sub(1.128, sub(X0, X1)), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), add(add(add(sub(add(add(sub(X1, X0), mul(add(add(X0, add(1.322, X0)), X0), sub(mul(add(add(-1.002, X0), -1.783), add(0.132, X0)), add(X0, add(1.322, X0))))), sub(add(sub(sub(X0, -1.545), mul(-1.000, X0)), add(X0, X0)), add(X1, 1.473))), X0), mul(-1.000, X0)), sub(-1.099, X0)), add(sub(sub(X0, X0), add(sub(X0, -1.703), X0)), add(X0, X0)))))
+======================================================================
+add(sub(add(X0, add(mul(0.069, X0), add(add(add(-1.002, X0), sub(add(add(add(-1.002, X0), mul(X0, X0)), add(sub(-1.099, 0.794), mul(add(add(add(X0, add(1.322, X0)), add(1.322, X0)), X0), sub(mul(add(add(-1.002, X0), -1.783), add(0.132, X0)), add(X0, add(1.322, X0)))))), add(X1, 1.473))), mul(add(add(X0, add(1.322, X0)), X0), sub(mul(add(add(-1.002, X0), -1.783), add(0.132, X0)), add(X0, add(1.322, X0))))))), add(X1, 1.473)), add(mul(add(X0, add(1.322, X0)), mul(sub(X1, X0), add(X0, X1))), X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest19.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -15.0~15.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.01576e+39      117          106.278          120.661     47.45s
+   1    38.62      1.58982e+18       11          98.8935          119.627      2.81m
+   2    45.91      1.15797e+12      117          85.9841          105.279      2.39m
+   3    55.56      9.58447e+08      119          86.0831          103.007      2.37m
+   4    58.84      6.36102e+12      115          82.8396           127.64      2.30m
+   5    83.09      4.68885e+08      121          84.1374          110.924      2.19m
+   6    94.51          78234.2      123          81.8449          95.1857      2.34m
+   7    93.41      8.33943e+06      119          82.3573          93.4068      2.16m
+   8    85.11      8.48487e+07      125          80.4369          103.377      1.90m
+   9    77.57      3.03557e+13       99          81.0341           124.59      1.55m
+  10    75.35      4.51453e+17      125          79.7473          108.549      1.20m
+  11    72.25           152118      125          79.7222          97.6508     54.62s
+  12    68.03           488055       83          79.1242          126.971     36.60s
+  13    64.40      1.97241e+15      123          79.4222          105.426     18.34s
+  14    61.63      5.43481e+15      111          78.8984          119.282      0.00s
+printing the best individuals for the last 10 generations:
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), mul(X1, 0.427))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), sub(X0, sub(add(-1.386, X1), add(X0, 0.717)))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(sub(X1, -1.419), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(mul(mul(X1, X0), X1), mul(-1.289, X0)), -0.020), sub(add(sub(X0, X1), mul(X0, X0)), sub(add(-1.386, X1), add(X0, 0.717))))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), mul(X1, 0.427))), add(add(add(X0, X1), sub(X0, X0)), sub(add(X0, X0), X0))), sub(add(add(0.685, sub(X1, -1.878)), sub(X0, sub(add(-1.386, X1), add(X0, 0.717)))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), add(add(1.806, X0), sub(0.263, X1))), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(sub(X1, -1.419), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(mul(mul(X1, X0), X1), mul(-1.289, X0)), -0.020), sub(add(sub(X0, X1), mul(X0, X0)), sub(add(X0, X0), X0)))), X0)))
+======================================================================
+add(0.109, add(mul(mul(X1, X0), add(X1, X1)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), sub(mul(add(1.397, X1), sub(0.389, X1)), add(1.276, add(add(add(1.011, X0), sub(0.449, 1.077)), sub(sub(X1, X0), mul(X1, 0.427)))))), sub(sub(mul(add(X1, mul(X0, 1.693)), mul(-1.289, X0)), -0.020), sub(add(sub(X0, X1), mul(-0.387, X0)), sub(sub(sub(-1.002, 1.272), add(X0, -0.312)), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), mul(X1, 0.427))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X1)))), sub(add(add(X0, add(1.489, -0.691)), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(sub(X1, -1.419), sub(0.389, X1)), add(0.685, sub(add(-1.381, X0), sub(X1, X1))))), sub(mul(mul(mul(mul(X1, X0), X1), mul(-1.289, X0)), -0.020), sub(add(sub(X0, X1), mul(X0, X0)), sub(add(-1.386, X1), X0)))), X0)))
+======================================================================
+add(add(-1.386, X1), add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), mul(X1, 0.427))), add(add(add(X0, X1), sub(X0, X0)), add(1.818, X1))), sub(add(sub(0.024, add(X1, X0)), sub(X0, add(0.807, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(sub(mul(-0.487, X1), X0), mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), add(X0, X0)), mul(add(1.397, X1), sub(0.389, X1))), sub(mul(mul(mul(mul(X1, X0), X1), mul(-1.289, X0)), -0.020), sub(add(sub(X0, X1), mul(X0, X0)), sub(add(-1.386, X1), X0)))), X0)))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest20.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -15.0~15.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.01576e+39      117          106.278          120.661     51.22s
+   1    41.00      1.86881e+13      119          95.7816           107.66      2.84m
+   2    51.73       1.5146e+10       99          90.0959          106.437      2.44m
+   3    71.84      1.49564e+10      149          87.1809          101.287      2.49m
+   4    79.87      6.42678e+06       43          84.5789          93.9773      2.54m
+   5    94.89      3.31818e+10       43          83.8423          99.7413      2.47m
+   6    87.29      6.47068e+09       95          81.7309          117.831      2.37m
+   7    53.39      3.89528e+07      121          81.6186          95.7059      2.02m
+   8    42.09      5.04582e+09       49          80.7401          112.954      1.41m
+   9    41.03      2.30961e+11       35          81.1107          114.841      1.09m
+  10    39.38      1.86299e+11       49          79.5641          120.277     53.54s
+  11    37.51      1.13043e+15       51          80.8907          108.297     40.34s
+  12    35.51          94124.1       33          80.9484          117.919     27.29s
+  13    34.35      1.61281e+08       49          81.1841          109.199     13.46s
+  14    33.33      3.73546e+11       37          80.6095          117.537      0.00s
+printing the best individuals for the last 10 generations:
+add(sub(mul(sub(X1, 1.738), sub(add(mul(-0.476, X1), sub(add(1.435, X1), add(0.392, X1))), sub(0.392, X0))), add(mul(mul(X1, X0), mul(X1, -1.746)), add(add(sub(0.184, -1.393), mul(X0, X1)), add(1.397, X1)))), mul(mul(X0, mul(mul(-1.443, -1.626), X0)), -1.466))
+======================================================================
+add(sub(mul(sub(X1, 1.738), sub(add(mul(-0.476, X1), sub(add(1.818, X1), add(0.392, X1))), sub(0.392, X0))), add(mul(mul(X1, X0), mul(X1, -1.746)), add(add(sub(add(1.818, X1), -1.393), mul(X0, X1)), add(1.397, X1)))), mul(mul(X0, mul(mul(-1.443, -1.626), X0)), -1.466))
+======================================================================
+add(sub(mul(sub(X1, 1.738), mul(-0.476, X1)), add(mul(mul(X1, X0), mul(X1, -1.746)), sub(add(X0, X1), add(-1.386, X1)))), mul(mul(X0, mul(mul(-1.443, -1.626), X0)), -1.466))
+======================================================================
+add(sub(mul(sub(X1, 1.738), sub(add(mul(-0.476, X1), 0.392), sub(0.392, X0))), add(mul(mul(X1, X0), mul(X1, -1.746)), add(add(sub(add(X0, X1), add(-1.386, sub(X1, 1.738))), mul(X0, X1)), add(1.397, X1)))), mul(mul(X0, mul(mul(-1.443, -1.626), X0)), -1.466))
+======================================================================
+add(sub(mul(sub(X1, 1.738), mul(-0.476, X1)), add(add(mul(mul(X1, X0), mul(X1, -1.746)), sub(add(X0, X1), X1)), sub(add(X0, X1), -0.985))), mul(mul(X0, mul(mul(-1.443, -1.626), X0)), -1.466))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest21.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -15.0~15.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      1.26702e+46       13          100.911          115.831      1.90m
+   1    39.04      3.26695e+10      115          96.2174          104.104      5.64m
+   2    44.89      7.90154e+08      137          91.7689          106.796      4.91m
+   3    50.72      1.34251e+19      113          88.1542          95.6953      4.64m
+   4    49.24      2.10862e+14       47          84.5757          136.323      4.39m
+   5    48.54      1.08791e+19       41          84.5707          115.858      4.06m
+   6    49.39      5.81936e+15       43          82.7274          114.783      3.70m
+   7    45.87      5.95958e+09       51          80.7873           136.42      3.44m
+   8    43.23      3.67484e+08       43          82.1676          123.936      2.79m
+   9    42.49      9.89822e+20       39          81.7668          118.308      2.37m
+  10    41.73      1.11114e+09       49           81.057          121.176      1.93m
+  11    40.46      1.42129e+07       31          80.3943          135.236      1.50m
+  12    39.42      1.43755e+22       69          80.5184          126.744     59.87s
+  13    39.03         4.58e+11       39           79.747          122.592     30.18s
+  14    38.74      3.74633e+08       37          80.7256          119.758      0.00s
+printing the best individuals for the last 10 generations:
+add(add(sub(sub(X1, X0), add(mul(X1, X1), add(add(sub(X1, -1.608), -1.349), add(add(X0, X0), X0)))), mul(mul(X0, X1), add(X1, X1))), sub(add(add(mul(X1, 1.302), -1.443), mul(-1.436, X0)), add(mul(mul(1.805, X0), add(X0, X0)), add(X0, X0))))
+======================================================================
+add(mul(0.929, mul(X0, mul(add(X0, X1), sub(X1, X0)))), add(add(mul(mul(X0, X1), X1), sub(sub(mul(-1.293, X0), mul(X1, X1)), 0.609)), add(-1.261, 0.554)))
+======================================================================
+add(add(sub(sub(X1, X1), mul(X1, X1)), mul(mul(X0, X1), add(X1, X1))), sub(add(add(sub(X1, X1), -1.443), mul(-1.436, add(sub(sub(add(mul(1.646, X1), sub(-0.745, X0)), mul(-1.293, X0)), add(X0, X1)), sub(mul(mul(X0, 1.474), sub(X0, -0.279)), mul(mul(-0.561, 0.018), sub(sub(X0, X0), X1)))))), add(mul(mul(1.805, X0), add(X0, X0)), add(X0, X0))))
+======================================================================
+add(add(sub(mul(-1.749, X0), add(mul(X1, X1), add(X0, add(add(X0, X0), X0)))), mul(mul(X0, X1), add(X1, X1))), sub(add(sub(0.629, X0), sub(-1.255, X0)), mul(add(X0, X0), add(X0, X0))))
+======================================================================
+add(add(sub(sub(X1, X1), mul(X1, X1)), mul(mul(X0, X1), add(X1, X1))), sub(add(sub(X1, X1), mul(-1.293, X0)), mul(add(add(X0, X0), add(mul(X0, 1.693), X0)), add(0.751, X0))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest22.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+         0.0~5.0      -15.0~15.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      1.26702e+46       13          100.911          115.831      1.56m
+   1    41.22      9.13997e+17      115          95.3941          82.6838      5.84m
+   2    46.30      6.14792e+21      117          89.4294          103.083      5.00m
+   3    44.16      2.29115e+13      115          88.2527          86.6379      4.70m
+   4    55.37      1.15536e+11      117          82.6401          120.314      4.32m
+   5    61.55      1.46423e+10      141          80.8653           95.148      4.28m
+   6    55.57      1.83078e+08      137          80.1303          100.837      3.92m
+   7    77.13      6.62824e+10      119          78.6869          104.832      3.44m
+   8   107.90      1.64066e+14      123          78.4871          102.972      3.53m
+   9   115.09      2.29177e+12      119          77.9033          108.735      3.29m
+  10   113.95      5.59192e+13      125          77.3361          105.782      2.76m
+  11   111.92      1.59816e+28      131          77.6326          107.982      2.09m
+  12   110.87           475216      125          76.4527          111.412      1.42m
+  13   108.64      1.28266e+11      127          76.2479          113.383     42.74s
+  14   106.44       4.8684e+09      113          77.4181          103.937      0.00s
+printing the best individuals for the last 10 generations:
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X0)))), sub(add(sub(0.024, sub(-1.661, 1.218)), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), mul(X0, X1)))), mul(-0.449, X0)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(mul(1.397, X1), sub(0.389, X1)), sub(add(-1.386, X1), add(X0, 0.717)))), sub(mul(mul(mul(X0, mul(mul(-0.769, X1), add(X1, X1))), add(-1.289, X0)), -0.020), add(add(sub(X0, X1), mul(mul(-1.958, -1.858), X0)), sub(mul(-1.958, -1.858), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), add(X0, X1)), sub(add(1.818, X1), add(0.996, X0)))), sub(add(sub(0.024, sub(add(sub(-0.208, 1.134), sub(X1, X1)), sub(sub(-0.569, -0.974), add(X1, X1)))), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), mul(X0, X1)))), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(mul(1.397, X1), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(mul(X0, mul(mul(-0.769, X1), add(X1, X1))), add(-1.289, X0)), -0.020), add(add(sub(X0, X1), mul(mul(-1.958, -1.858), X0)), sub(mul(-1.958, -1.858), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X0)))), sub(add(sub(0.024, sub(-1.661, 1.218)), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), mul(X0, X1)))), mul(-0.449, X0)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(mul(1.397, X1), sub(0.389, X1)), sub(add(-1.386, X1), add(X0, 0.717)))), sub(mul(mul(mul(X0, mul(mul(-0.769, X1), add(X1, X1))), add(-1.289, X0)), -0.020), add(add(sub(X0, X1), mul(mul(-1.958, -1.858), X0)), sub(mul(-1.958, -1.858), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), sub(-1.983, -1.658))), sub(X0, X0)), sub(add(1.818, X1), add(-1.386, X1)))), sub(add(X0, sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), mul(X0, X1)))), mul(-0.449, X0)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(X0, 1.693)), add(mul(mul(1.397, X1), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(mul(X0, mul(mul(-0.769, X1), add(X1, X1))), add(-1.289, X0)), -0.020), add(add(sub(X0, X1), mul(mul(-1.958, -1.858), X0)), sub(mul(-1.958, -1.858), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, 1.489), sub(sub(X1, X0), add(X0, X0))), add(add(X0, X1), sub(add(1.818, X1), add(0.996, X0)))), sub(add(sub(0.024, sub(-1.661, 1.218)), sub(X0, X0)), add(mul(mul(X1, X1), mul(X0, 1.693)), mul(X0, X1)))), mul(-0.449, X0)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(mul(1.397, X1), sub(0.389, X1)), sub(X0, 1.913))), sub(mul(mul(mul(X0, mul(mul(X1, -0.863), add(X1, X1))), add(-1.289, X0)), -0.020), add(add(sub(X0, X1), mul(mul(-1.958, -1.858), X0)), sub(mul(-1.958, -1.858), X0)))), X0)))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest23.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.43142e+47       63          293.389          285.342     54.60s
+   1    38.23      1.60015e+23       31          278.097          288.151      2.85m
+   2    46.20      8.75592e+11      119          264.682          285.414      2.41m
+   3    47.46      1.07411e+13       37          255.223          278.102      2.39m
+   4    55.12      1.05202e+14       83           242.67          280.608      2.21m
+   5    47.63      1.64264e+10       83          241.101          292.525      2.11m
+   6    77.38      2.90346e+08       87           240.73           292.41      1.98m
+   7    84.91       5.2179e+08       81          237.506          313.561      2.05m
+   8    78.58      8.98688e+09       81           237.95           296.58      1.80m
+   9    76.81      1.09137e+19       85          237.604          301.135      1.51m
+  10    75.75      4.39311e+21       85          235.273          307.402      1.19m
+  11    75.44       3.3776e+11       85          235.369          307.183     55.02s
+  12    74.93      2.75105e+09       77          235.881          303.884     37.72s
+  13    74.05      8.44217e+17       83          235.439          309.574     18.57s
+  14    73.33      2.23466e+18       81          233.171          329.212      0.00s
+printing the best individuals for the last 10 generations:
+sub(add(sub(mul(X0, mul(sub(0.576, X1), mul(-0.864, X1))), add(add(X0, X1), add(X0, add(sub(sub(X1, -1.054), mul(-1.144, X0)), add(add(1.576, X0), add(add(1.576, 1.950), sub(X0, X1))))))), mul(X0, sub(sub(add(X1, sub(X0, X0)), sub(X0, -0.465)), add(add(1.091, X0), sub(1.660, X1))))), add(mul(add(X1, sub(X0, X0)), sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(mul(mul(-1.284, 0.727), -1.712), add(X0, sub(add(X1, X0), X1)))))
+======================================================================
+sub(add(sub(mul(X0, mul(add(sub(1.576, X0), sub(X0, X1)), mul(-0.864, X1))), add(sub(sub(mul(X1, X0), -1.054), mul(-1.144, X0)), add(add(1.576, X0), sub(X0, X1)))), mul(X0, sub(sub(add(X1, X1), sub(X0, -0.465)), add(add(1.091, X0), sub(1.660, X1))))), add(mul(X1, sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(sub(X0, -0.573), sub(add(X1, X0), add(add(1.576, X0), sub(X0, X1)))), add(X0, sub(add(X1, X0), X1)))))
+======================================================================
+sub(add(sub(mul(X0, mul(sub(0.576, X1), mul(-0.864, X1))), add(sub(sub(X1, -1.054), mul(-1.144, X0)), add(add(1.576, X0), sub(X0, X1)))), mul(X0, sub(sub(add(X1, X1), sub(X0, -0.465)), add(add(1.091, X0), sub(1.660, -1.734))))), add(mul(add(X1, sub(X0, X0)), sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(sub(X1, -1.054), mul(-1.144, X0)), add(X1, add(add(1.576, X0), sub(X0, X1))))))
+======================================================================
+sub(add(sub(mul(X0, mul(add(sub(1.576, X0), sub(X0, X1)), mul(-0.864, X1))), add(sub(sub(mul(X1, X0), -1.054), mul(-1.144, X0)), add(add(1.576, X0), sub(X0, X1)))), mul(X0, sub(sub(add(X1, X1), sub(X0, -0.465)), add(add(1.091, X0), sub(1.660, X1))))), add(mul(X1, sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(sub(X0, -0.573), sub(X1, add(add(1.576, X0), sub(X0, X1)))), add(X0, sub(sub(X1, X0), X1)))))
+======================================================================
+sub(add(sub(mul(X0, mul(add(sub(1.576, X0), sub(X0, X1)), mul(-0.864, X1))), add(sub(sub(mul(X1, X0), -1.054), mul(-1.144, X0)), add(add(1.576, X0), sub(X0, X1)))), mul(X0, sub(sub(add(X1, X1), sub(X0, -0.465)), add(add(1.091, X0), sub(1.660, X1))))), add(mul(X1, sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(sub(X0, -0.573), sub(add(X1, X0), add(1.091, X0))), add(X0, sub(add(X1, X0), X1)))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest24.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.43142e+47       63          293.389          285.342      1.30m
+   1    41.10      2.27725e+17       31          278.981          295.815      2.90m
+   2    48.46      1.18593e+12       59          253.705           248.86      2.49m
+   3    56.71      2.04789e+14       47          250.817          257.486      2.48m
+   4    54.32      1.67794e+08       61          246.075           278.87      2.33m
+   5    63.81      1.11964e+14       61           245.01          287.184      2.13m
+   6    60.38      5.32287e+12       61           243.21          300.636      2.00m
+   7    57.95      2.61971e+08      127          242.676          292.339      1.75m
+   8    57.79      1.08039e+12       69          242.247          294.764      1.53m
+   9    57.56      8.63938e+14       53          240.367          311.715      1.33m
+  10    56.29      1.15854e+14       59           241.96          286.196      1.16m
+  11    56.17      4.49123e+17       59          240.019          298.204     47.05s
+  12    55.80           326869       61          241.016          293.385     31.59s
+  13    56.23      5.36614e+10       53          239.279          312.126     16.00s
+  14    54.13      2.91139e+13       53          239.011          318.748      0.00s
+printing the best individuals for the last 10 generations:
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(1.194, -0.451), mul(-1.444, X0)))), add(add(X0, X0), add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(-0.918, X0), mul(-1.528, X1)), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(add(sub(-1.394, 1.690), mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(1.194, -0.451), mul(-1.444, X0)))), add(X0, add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(-0.918, X0), mul(-1.528, X1)), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(-0.988, sub(-1.741, 0.682)), mul(-1.444, X0)))), mul(X0, X1)), sub(sub(sub(sub(-0.422, 1.418), add(X0, X1)), mul(X0, sub(X0, X1))), add(add(sub(0.356, X1), add(X0, X1)), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+sub(sub(add(sub(sub(X1, mul(X0, sub(sub(X0, X1), mul(1.481, 0.884)))), mul(X1, sub(X0, X1))), 1.863), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(add(sub(sub(-0.988, sub(-1.741, 0.355)), mul(-1.444, X0)), X0), mul(X0, add(X0, X0))), mul(X0, sub(sub(-1.394, 1.690), X0))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(-0.988, sub(-1.741, 0.355)), mul(-1.444, X0)))), add(X0, add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(X0, mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest25.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      1.04931e+54       39          293.356          293.217      2.13m
+   1    38.92      4.11763e+13      123          257.212          254.627      5.82m
+   2    45.81      1.13579e+13       83          249.659           275.54      4.94m
+   3    49.95       2.8816e+23      121           250.07          270.663      4.77m
+   4    73.61      6.20997e+16       71          244.193          266.405      4.70m
+   5    96.96      2.19688e+21       77          241.008          290.953      5.03m
+   6    96.59      2.69867e+18      173          239.991           259.78      5.13m
+   7    76.00      1.26548e+12      177          237.327           247.96      4.35m
+   8    69.70      3.35058e+13      177          236.437          255.491      3.49m
+   9    76.23      6.78007e+26      199          230.141          218.613      2.92m
+  10    87.78      2.36386e+10      197          226.316          251.956      2.45m
+  11   114.37       7.3666e+09      191          217.776          214.274      2.09m
+  12   158.35       1.1355e+26      193          210.504          221.078      1.58m
+  13   184.14      4.50438e+12      193          208.622          230.998     55.04s
+  14   190.23      2.43815e+10      199          203.459          212.794      0.00s
+printing the best individuals for the last 10 generations:
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, X1), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), add(mul(-0.272, X1), X0)), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, mul(0.226, X1)))), sub(mul(mul(add(X1, X0), mul(mul(-1.513, -0.004), mul(add(mul(add(X1, -1.826), sub(1.661, add(mul(X0, X1), mul(X0, X0)))), add(sub(mul(add(X1, 1.880), sub(-0.614, X1)), sub(add(X1, add(mul(X1, X1), add(add(1.489, -0.691), sub(sub(X1, mul(X0, sub(X0, add(sub(1.589, X0), sub(mul(X0, -1.650), mul(1.683, X0)))))), add(mul(X0, -0.569), mul(mul(-1.942, X1), mul(X1, X0))))))), add(mul(X1, X1), 1.102))), add(X0, sub(add(X1, X0), X1)))), X1))), -0.020), sub(add(sub(X0, mul(add(X1, X0), add(X1, X1))), mul(X0, X0)), sub(sub(X0, X1), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, mul(mul(X1, -0.484), X1)))), sub(mul(mul(add(X1, X0), mul(mul(-1.513, -0.004), mul(add(mul(add(X1, -1.826), sub(1.814, add(mul(X0, X1), sub(X1, X0)))), add(sub(mul(add(X1, 1.880), sub(-0.614, X1)), sub(add(X1, X0), add(mul(sub(-1.661, 1.218), mul(X0, mul(sub(0.576, X1), mul(-0.864, X1)))), sub(1.660, X1)))), add(X0, sub(add(sub(sub(-1.782, X1), add(X0, X1)), mul(mul(X1, X0), sub(X0, X1))), X1)))), X1))), -0.020), sub(add(sub(X0, mul(add(X1, X0), add(X1, X1))), mul(X0, X0)), sub(sub(X0, X1), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), X0), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), sub(0.389, X1)), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, mul(0.226, X1)))), sub(mul(mul(add(X1, X0), mul(mul(-1.513, -0.004), mul(add(mul(add(X1, -1.826), sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(mul(add(X1, 1.880), sub(-0.614, X1)), sub(add(X1, X0), add(mul(X1, X1), 1.102))), add(X0, add(sub(add(-0.918, X0), mul(sub(sub(X1, 0.960), sub(X1, -1.590)), sub(add(sub(sub(-1.782, X1), add(X0, X1)), mul(mul(X1, X0), sub(X0, X1))), mul(X0, X0)))), mul(mul(-1.942, X1), mul(X1, X0)))))), X1))), -0.020), sub(add(sub(X0, mul(add(X1, X0), add(X1, X1))), mul(X0, X0)), sub(sub(X0, X1), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), X0), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), sub(X0, sub(X1, X1))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), sub(0.389, X1)), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, mul(0.226, X1)))), sub(mul(mul(add(X1, X0), mul(mul(-1.513, -0.004), mul(add(mul(add(X1, -1.826), sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(mul(add(X1, 1.880), sub(-0.614, X1)), sub(add(X1, X0), sub(sub(X0, X1), X0))), add(X0, add(sub(add(-0.918, X0), mul(sub(sub(X1, 0.960), sub(X1, -1.590)), sub(add(sub(sub(-1.782, X1), add(X0, X1)), mul(mul(X1, X0), sub(X0, X1))), mul(X0, X0)))), mul(mul(-1.942, X1), mul(X1, X0)))))), X1))), -0.020), sub(add(sub(X0, mul(add(X1, X0), add(X1, X1))), mul(X0, X0)), sub(sub(X0, X1), X0)))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), X0), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), sub(X0, add(sub(1.589, X0), sub(mul(X0, -1.650), mul(1.683, X0))))), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), sub(0.389, X1)), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, mul(0.226, X1)))), sub(mul(mul(add(X1, X0), mul(mul(-1.513, -0.004), mul(add(mul(add(X1, -1.826), sub(1.661, add(mul(X0, X1), sub(X1, X0)))), add(sub(mul(add(X1, 1.880), sub(-0.614, X1)), add(sub(X0, X1), add(1.989, X0))), add(X0, add(sub(add(-0.918, X0), mul(sub(sub(X1, 0.960), sub(X1, -1.590)), sub(add(sub(sub(-1.782, X1), add(X0, X1)), mul(mul(X1, X0), sub(X0, X1))), mul(X0, X0)))), mul(mul(-1.942, X1), mul(X1, X0)))))), X1))), -0.020), sub(add(sub(X0, mul(add(X1, X0), add(X1, X1))), mul(X0, X0)), sub(sub(X0, X1), X0)))), X0)))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest26.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      1.04931e+54       39          293.356          293.217      2.27m
+   1    41.57      1.87849e+22       49          267.965          285.978      6.15m
+   2    43.85      9.46575e+26      129          259.255          261.748      5.23m
+   3    56.86       4.7332e+15       43          247.336           272.02      4.81m
+   4    55.52      2.00327e+14       47          244.627          280.477      4.72m
+   5    62.11      3.00192e+13       47          242.762          290.166      4.41m
+   6    49.70      1.75889e+09       45          239.641           332.87      3.90m
+   7    46.04      3.51405e+13       51          241.159          296.415      3.22m
+   8    45.04      6.90273e+16       43          238.943          321.481      2.92m
+   9    45.71      3.11966e+15       43          239.858          313.495      2.31m
+  10    46.71      2.20962e+21       53          236.834          317.992      1.98m
+  11    47.47      6.73428e+33       55          238.434          309.344      1.48m
+  12    49.49      6.35024e+09       59          237.946          306.032      1.02m
+  13    50.05      1.05064e+13       65          236.405          320.744     31.13s
+  14    51.29      2.03558e+11       59          238.099          304.156      0.00s
+printing the best individuals for the last 10 generations:
+sub(sub(mul(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(sub(add(mul(X0, X1), add(add(X0, add(X0, X0)), add(X0, X1))), mul(mul(0.854, X1), add(X1, X0))), add(X0, X0)), add(sub(mul(-1.650, X0), add(X0, 0.717)), add(X1, X1))))
+======================================================================
+sub(sub(mul(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(sub(add(mul(X0, X1), X0), mul(mul(0.854, X1), add(X1, X0))), add(X0, X0)), add(add(mul(1.508, -1.817), sub(sub(X1, X0), add(X0, add(X0, X0)))), sub(sub(X1, X0), add(X0, X0)))))
+======================================================================
+sub(sub(mul(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(sub(add(sub(add(mul(X0, X1), sub(X1, X1)), mul(mul(0.854, X1), add(X1, X0))), X0), add(mul(1.508, -1.817), sub(mul(add(X0, 1.400), mul(1.653, -1.883)), add(X0, X0)))), add(mul(1.508, -1.817), add(sub(1.233, X0), X1))))
+======================================================================
+sub(sub(mul(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(sub(add(sub(add(mul(X0, X1), add(X0, X0)), mul(mul(0.854, X1), add(X1, X0))), add(X0, X0)), add(mul(1.508, -1.817), sub(add(X1, 0.714), add(X0, X0)))), add(X0, X0)), mul(sub(mul(X1, mul(1.508, add(X0, X0))), mul(X0, X1)), 0.029)))
+======================================================================
+sub(sub(mul(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(sub(add(mul(X0, X1), mul(-1.942, sub(mul(1.508, -1.817), X0))), mul(mul(0.854, X1), add(X1, X0))), add(X0, X0)), add(sub(mul(add(X0, 1.400), mul(1.653, -1.883)), add(X0, X0)), sub(add(-0.780, -1.978), sub(X1, X1)))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest27.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      3.10027e+47       63          312.862          323.217     50.39s
+   1    38.37      2.27033e+23       31           295.37          292.431      2.82m
+   2    46.40      9.90665e+11       39          286.435          349.876      2.38m
+   3    49.49        3.575e+11       79          266.349          238.705      2.30m
+   4    51.60      1.17652e+14       43          258.734          297.618      2.18m
+   5    49.85      1.38403e+10       59          253.315          351.644      2.06m
+   6    75.19      3.25194e+08       69          250.149          374.937      1.88m
+   7    73.67       1.9425e+08       69          248.931          372.247      1.96m
+   8    60.22      2.00918e+10       51          247.573          364.896      1.66m
+   9    54.26      6.41639e+16       43          248.565          351.942      1.32m
+  10    50.37      5.54767e+21       47          247.802          353.198      1.04m
+  11    48.32      8.13098e+07       63          247.746          354.546     47.66s
+  12    47.94      1.08929e+11       45          244.087          373.459     31.73s
+  13    48.28      5.62437e+16       65           242.56          408.758     16.37s
+  14    48.15      2.77211e+18       43          249.904          342.119      0.00s
+printing the best individuals for the last 10 generations:
+sub(sub(add(mul(mul(X0, -1.828), add(X0, -0.199)), mul(mul(X0, -1.828), add(X0, -0.199))), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(add(add(add(1.576, X0), sub(X0, X1)), add(1.649, 0.196)), add(X0, X0)), add(mul(X1, X1), mul(-1.528, X0))))
+======================================================================
+sub(sub(add(mul(mul(add(sub(sub(X1, -1.054), sub(-0.170, -0.852)), add(add(1.576, X0), sub(X0, X1))), -1.828), add(X0, -0.199)), add(mul(X1, X1), X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(sub(1.638, mul(-1.934, X1)), add(X0, 1.789)), add(-1.307, sub(mul(mul(-0.194, X0), mul(1.902, X0)), sub(mul(X1, -1.429), add(-1.381, -0.168))))))
+======================================================================
+sub(sub(add(mul(mul(X0, -1.828), add(X0, -0.199)), mul(mul(X0, -1.828), add(sub(1.638, -1.243), add(X0, 1.789)))), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(add(sub(X1, -1.307), X1), add(X0, X0)), add(mul(X1, X1), add(X1, X1))))
+======================================================================
+sub(sub(add(mul(mul(add(sub(sub(X1, -1.054), add(1.573, -1.553)), add(mul(1.576, X0), sub(X0, X1))), -1.828), add(X0, -0.199)), sub(mul(X1, X1), X0)), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(mul(add(sub(X1, sub(-0.170, -0.852)), add(add(1.576, X0), sub(add(add(-1.621, 0.994), add(X0, 1.789)), X1))), -1.828), add(X0, 1.789)), add(X1, X1)))
+======================================================================
+sub(sub(add(mul(mul(X0, -1.828), add(X0, -0.199)), mul(mul(X0, -1.828), add(X0, 1.239))), mul(mul(-1.934, X1), mul(X1, X0))), sub(add(add(sub(X1, -1.307), sub(X0, X1)), sub(X0, X0)), add(mul(X1, X1), sub(-0.892, X0))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest28.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      3.10027e+47       63          312.862          323.217      1.01m
+   1    41.02      1.01268e+17       21          291.425          417.823      2.85m
+   2    49.63       1.3549e+12       59           268.91          228.107      2.46m
+   3    59.99      2.51653e+14       47          259.045           301.52      2.43m
+   4    60.45        2.238e+07      137          252.903          363.466      2.34m
+   5    63.67      9.85797e+12       63          253.378          354.304      2.14m
+   6    61.78      6.22516e+12       61          252.065          340.626      1.96m
+   7    59.06      2.85455e+08       51           249.72          366.703      1.75m
+   8    58.87      6.26098e+11       47          247.119          364.949      1.52m
+   9    59.73      1.05489e+15       59           241.31          409.406      1.32m
+  10    59.98      1.34098e+14       63          246.539          370.091      1.05m
+  11    60.14      5.42742e+17       61          250.442          357.823     48.01s
+  12    59.78           456639       65          248.234          356.181     32.13s
+  13    61.48      6.43082e+10       61          247.218          360.335     16.19s
+  14    61.03      4.87963e+12       63          248.307          356.114      0.00s
+printing the best individuals for the last 10 generations:
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(-0.988, sub(-1.741, 0.355)), mul(-1.444, X0)))), add(sub(sub(-0.988, 1.882), -0.988), add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(-0.918, X1), add(0.654, -0.853)), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(-0.168, add(mul(X1, X1), add(sub(add(X1, sub(sub(1.233, X0), mul(X0, X1))), add(add(sub(1.939, add(X0, X0)), X1), X1)), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(X1, sub(X1, mul(add(X0, X0), mul(X0, -1.736)))), sub(sub(X1, add(X0, X1)), X0)), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(-0.988, sub(-1.741, 0.355)), mul(-1.444, X0)))), add(mul(-1.528, X0), add(add(mul(X1, X0), add(X0, X1)), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(-0.918, X0), add(0.684, -0.994)), mul(mul(-1.942, X1), mul(X0, X1)))))))
+======================================================================
+add(mul(X1, X1), add(sub(add(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), mul(sub(sub(add(X1, -1.664), add(X0, X1)), X0), mul(1.513, X0))), add(add(X0, X1), add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(-0.918, X0), add(X0, X1)), mul(mul(-1.942, X1), mul(X0, X1))))))
+======================================================================
+add(mul(X1, X1), add(sub(mul(sub(sub(sub(X1, 1.418), add(X0, X1)), X0), sub(sub(-0.988, sub(-1.741, 0.355)), mul(-1.444, X0))), add(sub(mul(sub(X0, X0), add(1.217, X1)), mul(-1.444, X0)), add(mul(X1, X0), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(sub(add(-0.918, X1), X0), mul(mul(-1.942, X1), mul(X1, X0))))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest29.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      1.38692e+54       39          303.001          293.528      2.05m
+   1    39.09      6.07275e+12      123          276.805            218.9      5.82m
+   2    45.96      1.05435e+13      123          259.291            371.2      4.89m
+   3    51.98      3.94868e+23      109          258.611          323.493      4.67m
+   4    74.75      7.39765e+16       73          251.207          381.409      4.68m
+   5    99.00      5.50952e+22       83            250.8          359.625      5.26m
+   6   101.78      5.10358e+18       49          252.005          385.055      4.99m
+   7    85.39      1.71741e+11       45          250.004          363.845      4.43m
+   8    63.88      2.57438e+11      129          247.472          270.265      3.54m
+   9    53.18      2.26773e+25      131          246.983          278.735      2.71m
+  10    52.37      7.59233e+10      135          240.679           279.13      2.11m
+  11    63.39      3.18444e+10      141          232.595          243.164      1.63m
+  12    94.20      1.04431e+25      185          218.854           238.87      1.21m
+  13   126.20      5.54703e+13      181          211.882          269.869     41.73s
+  14   138.43      2.79845e+09      293          202.105          286.976      0.00s
+printing the best individuals for the last 10 generations:
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), X0), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), add(0.685, add(-0.290, X0))), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), sub(sub(X1, 1.858), add(X1, X0)))), sub(mul(mul(add(X1, X0), mul(-1.289, mul(mul(mul(0.800, 0.009), add(X1, -0.811)), sub(add(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0)))))), -0.020), sub(X0, mul(add(X1, X0), add(X1, X1))))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(mul(add(X0, -1.705), X1), add(add(-1.386, X1), X1)))), sub(add(sub(0.024, mul(0.915, X1)), X0), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), mul(mul(sub(0.442, X1), 0.526), add(sub(X0, X0), X1)))), sub(mul(mul(add(X1, X0), mul(-1.289, mul(mul(mul(0.800, 0.009), add(X1, -0.811)), sub(add(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0)))))), -0.020), sub(X0, mul(add(X1, X0), add(X1, X1))))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(mul(X1, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), X0), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(add(X1, X0), mul(-1.289, mul(mul(mul(0.800, 0.009), add(X1, -0.811)), sub(add(add(mul(X1, X1), add(sub(add(X1, mul(add(-1.244, add(sub(-0.110, X1), sub(sub(X1, X0), 0.486))), mul(mul(1.820, X0), add(X0, X0)))), add(mul(X0, X0), add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(add(X0, add(0.684, -0.994)), mul(mul(-1.942, X1), mul(X1, X0)))))), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0)))))), -0.020), sub(X0, mul(add(X1, X0), add(X1, X1))))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(mul(X1, X1), add(0.996, X1)))), sub(add(1.397, X1), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(add(X1, X0), mul(-1.289, mul(mul(mul(0.800, 0.009), add(X1, -0.811)), sub(add(add(mul(X1, X1), add(sub(add(X1, mul(add(-1.244, add(sub(-0.110, X1), sub(sub(X1, X0), 0.486))), mul(mul(1.820, X0), add(X0, X0)))), add(mul(X0, X0), add(mul(X0, X1), X1))), sub(sub(X1, mul(X0, sub(X0, X1))), add(add(X0, add(0.684, -0.994)), mul(mul(-1.942, X1), mul(X1, X0)))))), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0)))))), -0.020), sub(X0, mul(add(X1, X0), add(X1, X1))))), X0)))
+======================================================================
+add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(mul(X1, X1), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), X0), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), mul(-0.449, 1.814)), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), add(0.685, add(-0.290, X0)))), sub(mul(mul(add(X1, X0), mul(-1.289, mul(mul(mul(0.800, 0.009), add(X1, -0.811)), sub(add(sub(add(add(0.109, add(sub(sub(sub(mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))), add(add(add(X0, X1), sub(X0, X0)), sub(add(1.818, X1), add(0.996, X1)))), sub(add(sub(0.024, mul(0.915, X1)), X0), add(mul(mul(X1, X1), mul(X0, 1.693)), sub(1.651, mul(X0, X1))))), add(0.685, add(X1, X0))), sub(add(add(mul(sub(add(-1.386, X1), add(X0, 0.717)), mul(sub(-1.661, 1.218), mul(X0, -0.569))), add(mul(add(1.397, X1), sub(0.389, X1)), sub(sub(X1, 1.858), add(X1, X0)))), sub(mul(mul(add(X1, X0), mul(-1.289, mul(mul(mul(0.800, 0.009), add(X1, -0.811)), sub(mul(mul(-1.650, X0), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0)))))), -0.020), sub(X0, mul(add(X1, X0), add(X1, X1))))), X0))), mul(add(X0, 0.316), mul(add(X1, add(1.489, -0.691)), sub(sub(X1, X0), add(X0, X0))))), add(add(sub(X0, X0), mul(1.690, X1)), add(add(X0, 0.602), sub(1.696, X1)))), add(X0, X0)), mul(mul(-1.934, X1), mul(X1, X0)))))), -0.020), sub(X0, mul(add(X1, X0), add(X1, X1))))), X0)))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest30.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -20.0~20.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      1.38692e+54       39          303.001          293.528      1.66m
+   1    41.71      1.77165e+22       49          283.326          243.209      5.78m
+   2    44.32      1.25059e+27      129          268.941          262.094      5.19m
+   3    52.56      5.23071e+15       49          259.184          321.467      4.67m
+   4    54.81      2.68167e+13       65          253.165          355.079      4.54m
+   5    61.58      1.33469e+14       41          252.867          352.169      4.24m
+   6    50.57      2.56491e+11       51          248.818          375.906      3.84m
+   7    48.57      3.98668e+13       45          248.243          379.144      3.25m
+   8    48.26      7.34563e+16       45          249.031          386.034      2.80m
+   9    48.08      3.51003e+15       45          247.933          392.097      2.40m
+  10    47.11      1.29846e+20       47          249.019           354.74      1.95m
+  11    46.46      1.63912e+35       45          248.205          358.265      1.60m
+  12    46.28      2.37801e+07       37          245.397          383.435     58.37s
+  13    46.10      1.30063e+13       41          248.132          356.611     30.43s
+  14    45.62      9.20884e+12       53          236.361          414.383      0.00s
+printing the best individuals for the last 10 generations:
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(mul(add(add(1.488, X1), sub(X0, X1)), -1.062), X0), add(X0, X0))), add(X1, X1)), sub(sub(X1, add(add(X1, X1), X0)), add(sub(1.233, X0), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(mul(X1, X1), add(sub(add(X1, mul(sub(1.233, X0), add(X0, X0))), add(mul(add(X0, X0), add(X0, 1.170)), add(X0, X0))), sub(mul(-1.739, X0), add(sub(add(-0.918, X0), add(0.684, -0.994)), mul(mul(-1.942, X1), mul(X1, X0))))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(mul(X0, -1.062), X0), add(X0, X0))), add(X1, X0)), sub(sub(X1, add(X0, -1.857)), add(X1, mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(add(X1, mul(sub(-1.309, X0), add(X0, X0))), add(add(X0, X0), add(X0, X1))), sub(sub(X1, mul(X0, add(X0, X0))), add(X1, mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+add(X1, add(mul(X1, X1), add(sub(mul(sub(-1.309, X0), add(X0, mul(0.227, X0))), X0), sub(sub(X1, mul(X0, add(X0, X0))), add(sub(add(add(X0, X1), add(add(X0, X0), add(X0, X0))), sub(add(-1.738, -1.730), add(1.750, X1))), mul(mul(-1.942, X1), mul(X1, X0)))))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest31.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -15.0~15.0            10000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.51242e+44       27          115.304           95.633     59.19s
+   1    36.81      1.58955e+22       51            94.58          114.804      2.79m
+   2    45.32      2.01593e+11       55          94.4356          89.8688      2.35m
+   3    46.69      5.40161e+10       65          90.7384          100.165      2.32m
+   4    46.50      5.55609e+12       15          86.3362          96.9413      2.14m
+   5    52.23      1.94935e+09       95          87.6377          113.006      1.98m
+   6    51.32           561972       31          82.5409          126.682      1.89m
+   7    51.18      9.74133e+07       31          84.1996          116.444      1.67m
+   8    48.17      6.38452e+08       27          82.0872          135.419      1.45m
+   9    38.81      1.38025e+16       31          80.8523          135.291      1.22m
+  10    26.65      9.57463e+19       25          81.0831          131.884     56.66s
+  11    22.25       6.4782e+07       25          81.6639          132.173     37.22s
+  12    19.14       1.1651e+09       15          80.7079          133.638     24.10s
+  13    17.79      4.36826e+15       15          81.4084          129.758     11.89s
+  14    16.49      6.13815e+16       15          80.2507          136.094      0.00s
+printing the best individuals for the last 10 generations:
+sub(sub(mul(mul(X0, 1.793), mul(X1, X1)), sub(mul(X1, X1), sub(-1.188, -0.928))), sub(X0, mul(sub(1.545, X0), add(0.341, X0))))
+======================================================================
+sub(sub(mul(mul(X0, 1.793), mul(X1, X1)), sub(mul(X1, X1), sub(-1.188, -0.928))), add(add(sub(-1.525, X1), mul(X0, X0)), -0.288))
+======================================================================
+sub(sub(mul(mul(X0, 1.793), mul(X1, X1)), mul(X0, X0)), mul(X1, X1))
+======================================================================
+sub(sub(mul(mul(X0, 1.793), mul(X1, X1)), mul(X0, X0)), mul(X1, X1))
+======================================================================
+sub(sub(mul(mul(X0, 1.793), mul(X1, X1)), mul(X0, X0)), mul(X1, X1))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest32.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -15.0~15.0            10000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   134.14      2.51242e+44       27          115.304           95.633     46.49s
+   1    39.82      5.02601e+15       15          104.218          76.3677      2.88m
+   2    48.34      2.00305e+10       69          92.1949          85.0098      2.45m
+   3    35.29      6.86815e+14       63            90.05          103.106      2.35m
+   4    52.36      2.27161e+07       69          87.8957          119.142      2.04m
+   5    54.56      2.58321e+13       99          86.3343          118.929      2.03m
+   6    56.29      6.27042e+11       63          86.5824          108.339      1.88m
+   7    55.62      4.51634e+07       53          84.8748          128.333      1.77m
+   8    53.22      1.22416e+11       81           83.305          129.658      1.47m
+   9    49.85      8.98079e+11       47          84.5887          128.343      1.23m
+  10    43.78      6.73733e+12       59          83.9819          122.961     57.99s
+  11    38.39      4.20782e+14       53          84.4084          125.382     41.93s
+  12    35.37           102057       47          83.3133          124.484     28.03s
+  13    35.11      8.70263e+09       59           83.545          121.008     13.50s
+  14    35.76      4.01683e+11       57           82.948          114.826      0.00s
+printing the best individuals for the last 10 generations:
+sub(sub(sub(sub(mul(X0, X1), add(X1, 1.397)), add(sub(X1, -0.223), add(X0, mul(1.365, sub(add(-0.990, sub(add(X0, 1.201), -1.798)), X1))))), sub(add(sub(X0, X1), add(X1, X0)), mul(sub(1.545, X0), add(0.341, X1)))), sub(add(mul(mul(X0, X1), mul(-1.639, X1)), 1.889), sub(sub(X0, X0), add(X1, 1.397))))
+======================================================================
+sub(sub(sub(X1, add(sub(add(sub(X0, X1), sub(sub(X0, -1.764), sub(-0.241, X1))), sub(mul(X0, -1.748), sub(X1, -0.324))), sub(1.545, X0))), add(sub(X0, X1), sub(X0, X0))), add(add(mul(mul(X0, X1), mul(-1.639, X1)), sub(X0, -0.573)), add(0.923, mul(0.927, mul(0.607, X0)))))
+======================================================================
+sub(sub(add(-1.982, 1.159), add(X0, X0)), sub(add(mul(mul(X0, X1), mul(-1.639, X1)), sub(X0, sub(mul(sub(add(sub(X1, -0.223), add(X0, mul(1.365, sub(sub(X0, -1.764), sub(-0.241, 1.290))))), add(X1, X0)), -1.748), add(X1, 1.689)))), mul(X0, -1.712)))
+======================================================================
+sub(sub(mul(X0, -1.796), mul(X0, 0.955)), sub(add(add(mul(mul(X0, X1), mul(-1.639, X1)), sub(sub(-1.690, X1), add(-1.380, -0.926))), add(sub(X0, X1), sub(sub(X0, -1.764), sub(-0.241, 1.290)))), sub(mul(sub(add(sub(X1, -0.223), add(X0, mul(1.365, sub(add(X0, 1.201), -1.798)))), add(X1, X0)), -1.748), add(X1, 1.689))))
+======================================================================
+sub(sub(sub(-1.801, X0), 1.397), sub(add(add(mul(mul(X0, X1), mul(-1.639, X1)), sub(sub(-1.690, X1), add(-1.380, -0.926))), add(sub(X0, X1), sub(sub(X0, -1.764), sub(-0.241, 1.290)))), sub(mul(sub(add(sub(X1, -0.223), add(X0, mul(1.365, sub(add(X0, 1.201), -1.798)))), add(X1, X0)), -1.748), add(X1, 1.689))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest33.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -15.0~15.0            20000               15               25             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      4.25032e+51       27          115.304           95.633      1.52m
+   1    37.24       4.3919e+13       11           94.879          108.846      5.67m
+   2    43.04      5.01842e+11       13          93.6461          101.704      4.78m
+   3    41.17      1.87337e+22       31          86.5356          105.035      4.51m
+   4    32.85      2.41499e+16       31          86.8106          102.973      4.08m
+   5    43.47        1.171e+21       37          86.1144          104.119      3.57m
+   6    42.02      6.47572e+16       31          85.0899          115.176      3.47m
+   7    48.78      1.42808e+11       37          84.4349          115.839      3.13m
+   8    51.54      1.96168e+10       29          83.2597          120.105      2.89m
+   9    45.09      9.32821e+13       41          82.3874          128.425      2.44m
+  10    37.79      3.47701e+10       29          81.0873          136.537      1.89m
+  11    37.00      6.93753e+11       51          80.9401          136.457      1.34m
+  12    36.35      2.70108e+24       35          80.7615          134.641     56.55s
+  13    35.01      7.26148e+12       27          76.5331           79.423     29.03s
+  14    34.21      3.67534e+09       27          76.2946          81.4619      0.00s
+printing the best individuals for the last 10 generations:
+sub(add(sub(X0, X1), sub(X0, X0)), add(add(add(sub(1.233, X0), sub(mul(X0, X0), X1)), mul(X1, X1)), mul(mul(-1.792, X1), mul(X1, X0))))
+======================================================================
+sub(mul(sub(mul(mul(X1, X1), add(0.102, 1.529)), mul(add(X1, 1.528), X1)), mul(sub(sub(X0, X0), sub(X0, X0)), mul(mul(-1.792, X1), mul(X1, X0)))), add(add(add(sub(1.233, X0), sub(mul(X0, X0), X1)), mul(X1, X1)), mul(mul(-1.792, X1), mul(X1, X0))))
+======================================================================
+add(X0, sub(sub(sub(sub(0.389, X1), X0), add(add(add(sub(1.233, X0), sub(mul(X0, X0), X1)), mul(X1, X1)), mul(mul(-1.792, X1), mul(X1, X0)))), add(X0, sub(X0, -1.528))))
+======================================================================
+sub(mul(mul(0.053, X1), mul(mul(0.053, X1), mul(X1, X1))), add(add(mul(X0, X0), mul(X1, X1)), mul(mul(-1.792, X1), mul(X1, X0))))
+======================================================================
+sub(mul(mul(0.053, X1), mul(mul(0.053, X1), mul(X1, X1))), add(add(mul(X0, X0), mul(X1, X1)), mul(mul(-1.792, X1), mul(X1, X0))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest34.csv..
+
+
+
+         T_range     theta_range         pop_size         gen_size        tour_size       pars_coeff
+        0.0~10.0      -15.0~15.0            20000               15               50             0.05
+
+
+    |   Population Average    |             Best Individual              |
+---- ------------------------- ------------------------------------------ ----------
+ Gen   Length          Fitness   Length          Fitness      OOB Fitness  Time Left
+   0   132.50      4.25032e+51       27          115.304           95.633      1.54m
+   1    39.87      3.41777e+20       51          99.2855          100.568      5.89m
+   2    42.69      2.71941e+24       51          88.3193          102.187      5.15m
+   3    33.70      1.36831e+14       51          87.6857          106.985      4.56m
+   4    49.63      1.14215e+14       57          85.4914          125.793      4.00m
+   5    54.07      4.78821e+11       45          84.8409          124.224      4.02m
+   6    55.36      7.81352e+08       71          84.4874          85.0071      3.80m
+   7    52.53      6.30261e+13       73           81.897          96.6609      3.38m
+   8    48.74       9.6689e+15      105          81.4698          92.9436      2.91m
+   9    51.23      1.89865e+14       71          80.4483          104.522      2.43m
+  10    64.16      2.86415e+16       79          79.7595          108.252      1.98m
+  11    68.93      1.53335e+31       99          78.7462          111.262      1.58m
+  12    68.72      3.43672e+06       77          78.9649          105.531      1.08m
+  13    66.73      1.02084e+14       83          78.5955          107.583     33.60s
+  14    62.20      1.67637e+11       51          78.4579          113.716      0.00s
+printing the best individuals for the last 10 generations:
+add(sub(mul(mul(X1, X0), add(X1, X1)), add(X0, -0.219)), add(sub(add(sub(sub(sub(mul(X0, X1), add(X1, 1.397)), add(sub(X1, -0.223), add(X0, X1))), sub(add(sub(X0, X1), sub(X0, X0)), mul(sub(1.545, X0), add(0.341, X1)))), add(-1.158, -1.955)), add(add(add(X0, X0), add(add(sub(X0, X1), X0), X0)), add(-1.567, X0))), mul(mul(add(-0.133, 0.433), sub(0.016, X1)), sub(mul(X1, X0), mul(-0.769, X1)))))
+======================================================================
+add(sub(mul(mul(X1, X0), add(X1, X1)), add(X0, -0.219)), add(sub(add(sub(sub(sub(mul(X0, X1), add(X1, 1.397)), add(sub(X1, -0.223), sub(1.545, X0))), sub(add(sub(X0, add(sub(sub(sub(mul(X0, X1), sub(X0, -1.484)), add(sub(X1, -0.223), add(X0, X1))), sub(add(sub(X0, X1), sub(X0, X0)), mul(sub(1.545, X0), add(0.341, X1)))), add(-1.158, -1.955))), sub(X0, X0)), mul(sub(1.545, X0), add(0.341, X1)))), add(-1.158, -1.955)), X0), mul(mul(add(-0.133, 0.433), sub(0.016, X1)), sub(mul(X1, X0), mul(-0.769, X1)))))
+======================================================================
+add(sub(mul(mul(X1, X0), add(X1, X1)), add(X0, add(X0, X1))), add(sub(add(sub(sub(sub(mul(X0, X1), add(X1, 1.397)), add(add(add(X0, X0), sub(X0, X0)), add(X0, X1))), sub(add(sub(X0, X1), sub(X0, add(-1.158, -1.955))), mul(sub(1.545, X0), add(0.341, X1)))), add(-1.158, -1.955)), add(add(X0, X0), 1.397)), mul(mul(add(-0.133, 0.433), sub(0.016, X1)), sub(mul(X1, X0), mul(-0.769, X1)))))
+======================================================================
+add(sub(mul(mul(X1, X0), add(X1, X1)), add(X0, add(1.579, X1))), add(sub(add(sub(sub(sub(mul(X0, X1), add(X1, 1.397)), add(add(add(X0, X0), mul(add(-0.133, 0.433), mul(1.397, mul(0.851, 1.179)))), add(X0, X1))), sub(add(sub(X0, X1), sub(X0, X0)), mul(sub(1.545, X0), add(0.341, X1)))), add(-1.158, -1.955)), add(add(X0, add(X0, X0)), 1.397)), mul(mul(add(-0.133, 0.433), sub(0.016, X1)), sub(mul(X1, X0), mul(-0.769, X1)))))
+======================================================================
+add(sub(mul(mul(X1, X0), add(X1, X1)), add(sub(X0, X1), add(X0, X0))), add(sub(add(add(-1.158, -1.955), add(-1.158, -1.955)), add(add(X0, X0), add(add(X0, X0), add(X0, X0)))), mul(mul(add(-0.133, 0.433), sub(0.016, X1)), sub(mul(X1, X0), sub(-1.690, X1)))))
+======================================================================
+Age of extinction, kill all.. Start new generation..
+Results saved in file forest35.csv..
+
