@@ -1,4 +1,4 @@
-# Symbolic regression with genetic-programming (GPSR)
+# Symbolic regression with genetic programming (GPSR)
 Some applications of genetic programming-based symbolic regression (GPSR) in materials science.
 
 Please refer to this [paper](https://www.cambridge.org/core/journals/mrs-communications/article/symbolic-regression-in-materials-science/A5836F4AF5E9395A9B27541C5042A7F3) for detailed introductions.
